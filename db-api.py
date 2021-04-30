@@ -1,12 +1,38 @@
+import pandas as pd
 import json
 import requests
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import ForeignKey
+from sqlalchemy.orm import relationship
+from sqlalchemy.orm import backref
+
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///uni_db_p4.db'
 db = SQLAlchemy(app)
 
+'''
+, ForeignKey('students.student_id')
+, ForeignKey('classes.class_id')
+
+'''
+class Enrolled(db.Model):
+
+    __tablename__ = 'enrolled'
+
+    student_id = db.Column(db.Integer, primary_key=True)
+    class_id = db.Column(db.Integer, primary_key=True)
+    semester = db.Column(db.String(10), primary_key=True, nullable=False)
+    year = db.Column(db.Integer, primary_key=True)
+    grade =  db.Column(db.String(1))
+
+    def __repr__ (self):
+        return f"{self.semester} - {self.year} - {self.grade}"
+
 class Student(db.Model):
+    
+    __tablename__ = 'students'
+    
     student_id = db.Column(db.Integer, primary_key=True)
     email = db.Column(db.String(20), unique=True, nullable=False)
     grade_level = db.Column(db.String(10), nullable=False)
@@ -15,41 +41,45 @@ class Student(db.Model):
     major = db.Column(db.String(20), nullable=False)
     gpa = db.Column(db.Float)
 
+    #classes_attending = relationship("Class", secondary=Enrolled, back_populates="students_attending")
+
     def __repr__ (self):
         return f"{self.fname} - {self.lname} - {self.grade_level} - {self.major}"
 
-'''
-class Enrolled(db.Model):
-    #student_id = db.Column(db.Integer, primary_key=True)
-    #class_id = db.Column(db.Integer, primary_key=True)
-    semester = db.Column(db.String(10), nullable=False)
-    year = db.Column(db.Integer)
-    grade =  db.Column(db.Integer)
-
-    def __repr__ (self):
-        return f"{self.semester} - {self.year} - {self.grade}"
-'''
-
-class Class(db.Model):
-    class_id = db.Column(db.Integer, primary_key=True)
-    #teacher_id = db.Column(db.Integer, foriegn_key=True)
-    class_name = db.Column(db.String(20), nullable=False)
-    class_time = db.Column(db.String(20), nullable=False)
-
-    def __repr__ (self):
-        return f"{self.class_name} - {self.class_time}"
-
 class Teacher(db.Model):
+
+    __tablename__ = 'teachers'
+
     teacher_id = db.Column(db.Integer, primary_key=True)
     fname = db.Column(db.String(20), nullable=False)
     lname = db.Column(db.String(20), nullable=False)
     email = db.Column(db.String(20), nullable=False, unique=True)
     college = db.Column(db.String(20))
+    #classes = db.relationship('Class', backref='teachers', lazy=True)
 
     def __repr__ (self):
         return f"{self.fname} - {self.lname} - {self.email}"
 
+class Class(db.Model):
+
+    __tablename__ = 'classes'
+#, ForeignKey("teachers.teacher_id")
+    class_id = db.Column(db.Integer, primary_key=True)
+    teacher_id = db.Column(db.Integer )
+    class_name = db.Column(db.String(20), nullable=False)
+    class_time = db.Column(db.String(20), nullable=False)
+    
+    #professor = relationship("Teacher", backref=backref("request", uselist=False))
+    
+    #students_attending = relationship("Student", secondary=Enrolled, back_populates="classes_attending")
+
+    def __repr__ (self):
+        return f"{self.class_name} - {self.class_time}"
+
 class Admin(db.Model):
+
+    __tablename__ = 'admin'
+
     admin_id = db.Column(db.Integer, primary_key=True)
     fname = db.Column(db.String(20), nullable=False)
     lname = db.Column(db.String(20), nullable=False)
@@ -61,14 +91,118 @@ class Admin(db.Model):
         return f"{self.fname} - {self.lname} - {self.email} - {self.phone_number} - {self.occupation}"
 
 class User(db.Model):
+
+    __tablename__ = 'users'
+
     user_id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(20), nullable=False)
     password = db.Column(db.String(20), nullable=False)
-    status = db.Column(db.String(20), nullable=False)
+    status = db.Column(db.String(1), nullable=False)
 
     def __repr__ (self):
         return f"{self.username} - {self.status}"
 
+
+def populate_students():
+    df = pd.read_csv('file:StudentDatabase.txt', header=0, sep=',')
+    #print(df.head())
+    for index, row in df.iterrows():
+        s = Student( 
+            student_id = row['student_id'],
+            email = row['email'],
+            grade_level = row['grade_level'],
+            fname =  row['first'],
+            lname =  row['last'],
+            major =  row['major'],
+            gpa =  row['gpa']
+        )
+        print(s)
+        db.session.add(s)
+        db.session.commit(s)
+    
+
+def populate_teachers():
+    df = pd.read_csv('file:TeacherDatabase.txt', header=0, sep=',')
+    print(df.head())
+    for index, row in df.iterrows():
+        t = Teacher( 
+            teacher_id = row['teacher_id'],
+            email = row['email'],
+            college = row['department'],
+            fname =  row['first'],
+            lname =  row['last'],
+        )
+        db.session.add(t)
+        db.session.commit(t)
+
+def populate_classes():
+    df = pd.read_csv('file:ClassDatabase.txt', header=0, sep=',')
+    #print(df.head())
+    for index, row in df.iterrows():
+        c = Class( 
+            class_id = row['class_id'],
+            teacher_id = row['teacher_id'],
+            class_name = row['name'],
+            class_time =  row['time'],
+        )
+        db.session.add(c)
+        db.session.commit(c)
+
+def populate_enrolled():
+    df = pd.read_csv('file:EnrolledDatabase.txt', header=0, sep=',')
+    print(df.head())
+    for index, row in df.iterrows():
+        e = Enrolled( 
+            student_id = row['student_id'],
+            class_id = row['class_id'],
+            semester = row['Semester'],
+            year =  row['year'],
+            grade =  row['grade'],
+        )
+        db.session.add(e)
+        db.session.commit()
+
+def populate_admin():
+    df = pd.read_csv('file:AdminDatabase.txt', header=0, sep=',')
+    print(df.head())
+    for index, row in df.iterrows():
+        a = Admin( 
+            admin_id = row['admin_id'],
+            fname = row['first'],
+            lname = row['last'],
+            email =  row['email'],
+            phone_numer =  row['phone'],
+            occupation = row['occupation']
+        )
+        db.session.add(a)
+        db.session.commit()
+
+def populate_users():
+    df = pd.read_csv('file:UserDatabase.txt', header=0, sep=',')
+    print(df.head())
+    for index, row in df.iterrows():
+        u = User( 
+            user_id = row['uid'],
+            username = row['username'],
+            password = row['password'],
+            status =  row['type'],
+        )
+        db.session.add(u)
+        db.session.commit()
+
+def main():
+
+    populate_students()
+   # populate_teachers()
+   # populate_classes()
+   # populate_enrolled()
+   # populate_admin()
+
+if __name__ == "__main__":
+    main()
+
+
+'''
 @app.route("/")
 def home():
     return "Hello, This is the API for the Database Class"
@@ -151,13 +285,6 @@ def get_admins():
         output.append(admin_data)
     return {"admins" : output}
 
-'''
-@app.route("/posts/<id>")
-def get_post(id):
-    post = Post.query.get_or_404(id)
-    return {"title": post.title, "description": post.description}
-'''
-
 @app.route('/students', methods=['POST'])
 def add_student():
     student = Student( student_id=request.json['student_id'],
@@ -191,7 +318,7 @@ def add_teacher():
     db.session.commit()
     return {'id': teacher.teacher_id}
 
-'''
+
 @app.route('/enrolled', methods=['POST'])
 def add_enrolled():
     post = Post(title=request.json['title'],
@@ -206,7 +333,7 @@ def add_enrolled():
     db.session.add(post)
     db.session.commit()
     return {'id': post.id}
-'''
+
 
 @app.route('/admins', methods=['POST'])
 def add_admin():
@@ -220,13 +347,4 @@ def add_admin():
     db.session.commit()
     return {'id': admin.admin_id}
 
-'''
-@app.route('/posts/<id>', methods=['DELETE'])
-def delete_post(id):
-    post = Post.query.get(id)
-    if post is None:
-        return {"error": "not found"}
-    db.session.delete(post)
-    db.session.commit()
-    return {"message": "Deleted"}
 '''
