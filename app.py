@@ -309,7 +309,7 @@ def get_StudSemYrClasses(sid, sem, yr):
         }
         output.append(data)
     return {"Student Classes": output}
-
+    
 # Student -> Queries all classes he has taken w/ GPA
 @app.route('/api/students/allClasses/<sid>', methods=['GET'])
 def get_StudAllClasses(sid):
@@ -395,10 +395,8 @@ def get_StudentInfo(sid):
     return {"Student" : output}
 
 # Admin -> Search for student in a class and remove them
-@app.route('/api/admins/remove', methods=['DELETE'])
+@app.route('/api/admins/remove/<sid>/<cid>', methods=['GET'])
 def delete_StudentFromClass():
-    sid = request.json['student_id']
-    cid = request.json['class_id']
     enrolled_info = Enrolled.query.filter_by(student_id=sid, class_id=cid).first()
 
     if enrolled_info is None:
@@ -408,10 +406,8 @@ def delete_StudentFromClass():
     return { "message" :  "Student Removed" }
 
 # Admin -> Add an existing student to a class
-@app.route('/api/admins/add/student', methods=['POST'])
-def add_StudentToClass():
-    sid = request.json['student_id']
-    cid = request.json['class_id']
+@app.route('/api/admins/add/student/<sid>/<cid>', methods=['GET'])
+def add_StudentToClass(sid, cid):
     stud_data = Student.query.get(sid)
     if stud_data is None:
         return {"error" : "Student Not Found"}
@@ -430,7 +426,7 @@ def add_StudentToClass():
     return { "message" : "Student Successfully Added" }
 
 # Admin -> Change an teachers for a class with an existing teacher
-@app.route('/api/admins/add/teacher/<tid>/<cid>', methods=['POST'])
+@app.route('/api/admins/add/teacher/<tid>/<cid>', methods=['GET'])
 def add_TeacherToClass(tid, cid):
     class_data = Class.query.get(cid)
     if class_data is None:
@@ -496,8 +492,8 @@ def get_user(un, pw):
 
 
 # Register Student
-@app.route('/register/student', methods=['POST'])
-def add_student():
+@app.route('/register/student/<fname>/<lname>/<email>/<grade_level>/<major>/<gpa>', methods=['GET'])
+def add_student(fname, lname, email, grade_level, major, gpa):
     while True:
         sid = randint(1000000, 9999999)
         exists = Student.query.get(sid)
@@ -505,12 +501,13 @@ def add_student():
             break
        
     student = Student( student_id=sid,
-                fname=request.json['fname'],
-                lname=request.json['lname'],
-                email=request.json['email'],
-                grade_level=request.json['grade_level'],
-                major=request.json['major'],
-                gpa=request.json['gpa'] )
+                fname=fname,
+                lname=lname,
+                email=email,
+                grade_level=grade_level,
+                major=major,
+                gpa=gpa 
+            )
     db.session.add(student)
     db.session.commit()
     
@@ -526,7 +523,7 @@ def add_student():
     return {'message': "Successfully Added a new Student"}
 
 # Register Teacher
-@app.route('/register/teacher', methods=['POST'])
+@app.route('/register/teacher/<fname>/<lname>/<college>/<email>', methods=['GET'])
 def add_teacher():
     while True:
         tid = randint(100000, 999999)
@@ -535,10 +532,11 @@ def add_teacher():
             break
     
     teacher = Teacher(teacher_id=tid,
-                fname=request.json['fname'],
-                lname=request.json['lname'],
-                college=request.json['college'],
-                email=request.json['email'] )
+                fname=fname,
+                lname=lname,
+                college=college,
+                email=email
+            )
     db.session.add(teacher)
     db.session.commit()
     
@@ -554,7 +552,7 @@ def add_teacher():
     return {'message': "Successfully Added a new Student"}
 
 # Register Admin
-@app.route('/register/admin', methods=['POST'])
+@app.route('/register/admin/<email>/<fname>/<lname>/<phone_number>/<occupation>', methods=['GET'])
 def add_admin():
     while True:
         aid = randint(10000, 99999)
@@ -563,11 +561,12 @@ def add_admin():
             break
 
     admin = Admin(admin_id=aid,
-                email=request.json['email'],
-                fname=request.json['fname'],
-                lname=request.json['lname'],
-                phone_number=request.json['phone_number'],
-                occupation=request.json['occupation'] )
+                email=email,
+                fname=fname,
+                lname=lname,
+                phone_number=phone_number,
+                occupation=occupation
+            )
     db.session.add(admin)
     db.session.commit()
 
@@ -582,4 +581,3 @@ def add_admin():
     db.session.commit()
 
     return {'message': "Successfully Added a new Student"}
-
