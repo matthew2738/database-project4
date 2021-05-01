@@ -483,17 +483,14 @@ def get_ClassTeacherInfo(cid):
     output.append(data)
     return {"Class Info" : output}
 
-@app.route('/api/getUser/login')
-def get_user():
-    username = request.args.get('username')
-    pw = request.args.get('password')
-    user = User.query.filter_by(username=username).all()
-    
-    #if user.password != pw:
-    #    return {"error" : "Incorrect Password"}
+# Get a login information
+@app.route('/api/getUser/login/<un>/<pw>')
+def get_user(un, pw):
+    user = User.query.filter_by(username=un, password=pw).first()
     
     if user is None:
-        return {"error": "Incorrect Username"}
+        return {"error": "Invalid Login"}
+    
     output = []
     for u in user:
         user_data = {
@@ -503,6 +500,7 @@ def get_user():
             'status' : u.status
         }
         output.append(user_data)
+    
     return {"User": output}
 '''
 @app.route('/students', methods=['POST'])
