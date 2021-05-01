@@ -6,16 +6,12 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import ForeignKey
 from sqlalchemy.orm import relationship
 from sqlalchemy.orm import backref
+from random import randint
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///uni_db_p4.db'
 db = SQLAlchemy(app)
 
-'''
-, ForeignKey('students.student_id')
-, ForeignKey('classes.class_id')
-
-'''
 class Enrolled(db.Model):
 
     __tablename__ = 'enrolled'
@@ -42,8 +38,6 @@ class Student(db.Model):
     major = db.Column(db.String(20), nullable=False)
     gpa = db.Column(db.Float)
 
-    #classes_attending = relationship("Class", secondary=Enrolled, back_populates="students_attending")
-
     def getFullName(self):
         return f"{self.fname} {self.lname}"
 
@@ -59,7 +53,6 @@ class Teacher(db.Model):
     lname = db.Column(db.String(20), nullable=False)
     email = db.Column(db.String(20), nullable=False, unique=True)
     college = db.Column(db.String(20))
-    #classes = db.relationship('Class', backref='teachers', lazy=True)
     def getFullName(self):
         return f"{self.fname} {self.lname}"
 
@@ -69,15 +62,11 @@ class Teacher(db.Model):
 class Class(db.Model):
 
     __tablename__ = 'classes'
-#, ForeignKey("teachers.teacher_id")
+
     class_id = db.Column(db.Integer, primary_key=True)
     teacher_id = db.Column(db.Integer )
     class_name = db.Column(db.String(20), nullable=False)
     class_time = db.Column(db.String(20), nullable=False)
-    
-    #professor = relationship("Teacher", backref=backref("request", uselist=False))
-    
-    #students_attending = relationship("Student", secondary=Enrolled, back_populates="classes_attending")
 
     def __repr__ (self):
         return f"{self.class_name} - {self.class_time}"
@@ -209,10 +198,10 @@ def main():
    # populate_enrolled()
    # populate_admin()
    # populate_users()
-
-if __name__ == "__main__":
-    main()
 '''
+
+if __name__ == "main":
+    app.run(host='0.0.0.0')
 
 # Home Page
 @app.route("/")
@@ -345,7 +334,7 @@ def get_StudAllClasses(sid):
     return {"All Classes": output}
 
 # Student -> Query for a teacher by name and return their info
-@app.route('/api/students/find/teacher/<fname>/<lname>')
+@app.route('/api/students/find/teacher/<fname>/<lname>', methods=['GET'])
 def get_TeacherByName(fname, lname):
 
     teacher_query = Teacher.query.filter_by(fname=fname, lname=lname).all()
@@ -400,9 +389,10 @@ def get_StudentInfo(sid):
     return {"Student" : output}
 
 # Admin -> Search for student in a class and remove them
-@app.route('/api/admins/remove/<sid>/<cid>', methods=['DELETE'])
-def delete_StudentFromClass(sid, cid):
-
+@app.route('/api/admins/remove', methods=['DELETE'])
+def delete_StudentFromClass():
+    sid = request.json['student_id']
+    cid = request.json['class_id']
     enrolled_info = Enrolled.query.filter_by(student_id=sid, class_id=cid).first()
 
     if enrolled_info is None:
@@ -412,8 +402,10 @@ def delete_StudentFromClass(sid, cid):
     return { "message" :  "Student Removed" }
 
 # Admin -> Add an existing student to a class
-@app.route('/api/admins/add/student/<sid>/<cid>', methods=['POST'])
-def add_StudentToClass(sid, cid):
+@app.route('/api/admins/add/student', methods=['POST'])
+def add_StudentToClass():
+    sid = request.json['student_id']
+    cid = request.json['class_id']
     stud_data = Student.query.get(sid)
     if stud_data is None:
         return {"error" : "Student Not Found"}
@@ -432,7 +424,7 @@ def add_StudentToClass(sid, cid):
     return { "message" : "Student Successfully Added" }
 
 # Admin -> Change an teachers for a class with an existing teacher
-@app.route('/api/admins/add/teacher/<tid>/<cid>')
+@app.route('/api/admins/add/teacher/<tid>/<cid>', methods=['POST'])
 def add_TeacherToClass(tid, cid):
     class_data = Class.query.get(cid)
     if class_data is None:
@@ -481,25 +473,32 @@ def get_ClassTeacherInfo(cid):
 @app.route('/api/getUser/login/<un>/<pw>', methods=['GET'])
 def get_user(un, pw):
     user = User.query.filter_by(username=un, password=pw).first()
-    
-    if user is None:
-        return {"error": "Invalid Login"}
-    
+
     output = []
+    if user is None:
+        return {"User": output}
+
     user_data = {
-        'user_id' : u.user_id,
-        'username' : u.username,
-        'password' : u.password,
-        'status' : u.status
+        'user_id' : user.user_id,
+        'username' : user.username,
+        'password' : user.password,
+        'status' : user.status
     }
     output.append(user_data)
-    
+
     return {"User": output}
 
-# Admin -> Adds a Student to the database
-@app.route('/admins/student/add', methods=['POST'])
+
+# Register Student
+@app.route('/register/student', methods=['POST'])
 def add_student():
-    student = Student( student_id=request.json['student_id'],
+    while True:
+        sid = randint(1000000, 9999999)
+        exists = Student.query.get(sid)
+        if exists is None:
+            break
+       
+    student = Student( student_id=sid,
                 fname=request.json['fname'],
                 lname=request.json['lname'],
                 email=request.json['email'],
@@ -508,48 +507,56 @@ def add_student():
                 gpa=request.json['gpa'] )
     db.session.add(student)
     db.session.commit()
-    return {'id': student.student_id}
-'''
-@app.route('/classes', methods=['POST'])
-def add_class():
-    c = Class(class_id=request.json['class_id'],
-                class_name=request.json['class_name'],
-                class_time=request.json['class_time'] )
-    db.session.add(c)
+    
+    new_user = User(
+        user_id=sid,
+        username=student.email,
+        password=student.lname,
+        status="S"
+    )
+    db.session.add(new_user)
     db.session.commit()
-    return {'id': c.class_id}
 
-@app.route('/teachers', methods=['POST'])
+    return {'message': "Successfully Added a new Student"}
+
+# Register Teacher
+@app.route('/register/teacher', methods=['POST'])
 def add_teacher():
-    teacher = Teacher(teacher_id=request.json['teacher_id'],
+    while True:
+        tid = randint(100000, 999999)
+        exists = Teacher.query.get(tid)
+        if exists is None:
+            break
+    
+    teacher = Teacher(teacher_id=tid,
                 fname=request.json['fname'],
                 lname=request.json['lname'],
                 college=request.json['college'],
                 email=request.json['email'] )
     db.session.add(teacher)
     db.session.commit()
-    return {'id': teacher.teacher_id}
-
-
-@app.route('/enrolled', methods=['POST'])
-def add_enrolled():
-    post = Post(title=request.json['title'],
-                image=request.json['image'],
-                zip=request.json['zip'],
-                city=request.json['city'],
-                category=request.json['category'],
-                postdate=request.json['postdate'],
-                startdate=request.json['startdate'],
-                enddate=request.json['enddate'],
-                description=request.json['description'])
-    db.session.add(post)
+    
+    new_user = User(
+        user_id=tid,
+        username=teacher.email,
+        password=teacher.lname,
+        status="T"
+    )
+    db.session.add(new_user)
     db.session.commit()
-    return {'id': post.id}
 
+    return {'message': "Successfully Added a new Student"}
 
-@app.route('/admins', methods=['POST'])
+# Register Admin
+@app.route('/register/admin', methods=['POST'])
 def add_admin():
-    admin = Admin(admin_id=request.json['admin_id'],
+    while True:
+        aid = randint(10000, 99999)
+        exists = Teacher.query.get(aid)
+        if exists is None:
+            break
+
+    admin = Admin(admin_id=aid,
                 email=request.json['email'],
                 fname=request.json['fname'],
                 lname=request.json['lname'],
@@ -557,6 +564,17 @@ def add_admin():
                 occupation=request.json['occupation'] )
     db.session.add(admin)
     db.session.commit()
-    return {'id': admin.admin_id}
 
-'''
+
+    new_user = User(
+        user_id=aid,
+        username=teacher.email,
+        password=teacher.lname,
+        status="A"
+    )
+    db.session.add(new_user)
+    db.session.commit()
+
+    return {'message': "Successfully Added a new Student"}
+
+
