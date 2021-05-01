@@ -1,0 +1,1001 @@
+student_id,first,last,email,grade_level,major,gpa
+9241839,Lee,GLOVER,LeeGL40@usf.edu,Sophmore,united states history,1.8125
+9411761,Badr,HINTON,BadrHI15@usf.edu,Junior,linguistics and comparative language and literature,1.58333
+3131759,Seumus,MCKEE,SeumusMC85@usf.edu,Senior,microbiology,1.53125
+4734832,Sam,ROACH,SamRO12@usf.edu,Freshman,public administration,2.25
+3485536,Barbara-Louise,GILLESPIE,Barbara-LouiseGI79@usf.edu,Freshman,mechanical engineering related technologies,0.375
+5616786,Samantha-Lee,HILL,Samantha-LeeHI24@usf.edu,Sophmore,hospitality management,2.3125
+1216869,Sergio,POOLE,SergioPO93@usf.edu,Freshman,actuarial science,1.875
+2947913,Maryellen,GLENN,MaryellenGL37@usf.edu,Junior,community and public health,2.45833
+3499627,Melea,WERNER,MeleaWE76@usf.edu,Sophmore,environmental engineering,1.9375
+7979945,Kerina,BUTLER,KerinaBU26@usf.edu,Freshman,neuroscience,1.375
+8246875,Akash,GORDON,AkashGO14@usf.edu,Sophmore,communication disorders sciences and services,1.9375
+3346838,Ka,TERRELL,KaTE99@usf.edu,Freshman,applied mathematics,1.5
+5649342,Methven,ATKINSON,MethvenAT25@usf.edu,Junior,finance,2.08333
+5717745,Rolf,STANLEY,RolfST64@usf.edu,Junior,miscellaneous engineering technologies,2.08333
+7929387,Donald,COOKE,DonaldCO88@usf.edu,Senior,business economics,2.03125
+2939193,Jasmina,BYRD,JasminaBY73@usf.edu,Freshman,human services and community organization,1.875
+4356127,Norlin,POWERS,NorlinPO48@usf.edu,Senior,library science,2.28125
+1447639,Lesley-Ann,BECKER,Lesley-AnnBE38@usf.edu,Junior,industrial production technologies,1.45833
+8896233,Sai,PALMER,SaiPA22@usf.edu,Senior,industrial production technologies,2.0625
+7947329,Rieka,HUNT,RiekaHU12@usf.edu,Sophmore,civil engineering,1.5625
+3494533,Micah,VASQUEZ,MicahVA46@usf.edu,Freshman,treatment therapy professions,2.125
+9756117,Sedrik,WATSON,SedrikWA20@usf.edu,Senior,area ethnic and civilization studies,1.5
+8877593,Jemima,BRADFORD,JemimaBR25@usf.edu,Sophmore,early childhood education,1.625
+1686889,Ling,KAISER,LingKA98@usf.edu,Freshman,management information systems and statistics,2.25
+8522554,Ciara,HULL,CiaraHU93@usf.edu,Sophmore,art and music education,2.375
+5929472,Wendy-Jane,ESTRADA,Wendy-JaneES66@usf.edu,Senior,international relations,1.6875
+1249633,Lyndzey,FIELDS,LyndzeyFI35@usf.edu,Sophmore,materials engineering and materials science,1.8125
+5492213,Shawna,BAXTER,ShawnaBA21@usf.edu,Junior,business economics,2.04167
+1919342,Jaspal,BEARD,JaspalBE29@usf.edu,Junior,physical fitness parks recreation and leisure,2.08333
+6436895,Seth,RICE,SethRI87@usf.edu,Freshman,metallurgical engineering,1.875
+8992468,Donia,WOODWARD,DoniaWO29@usf.edu,Senior,architectural engineering,1.625
+3956597,Mariessa,HANSEN,MariessaHA52@usf.edu,Freshman,geosciences,2
+8119196,Laurie,BRAUN,LaurieBR11@usf.edu,Junior,criminal justice and fire protection,2
+9466229,Leith,REED,LeithRE07@usf.edu,Freshman,communication technologies,2
+6657329,Jaine,STEPHENSON,JaineST50@usf.edu,Junior,linguistics and comparative language and literature,2.08333
+4262765,Mobashira,CUMMINGS,MobashiraCU68@usf.edu,Senior,studio arts,1.75
+5316271,Dyfrig,MADDEN,DyfrigMA07@usf.edu,Junior,elementary education,2.29167
+3755689,Imran-Ul-Haq,HOOD,Imran-Ul-HaqHO77@usf.edu,Junior,miscellaneous health medical professions,2.04167
+8958289,Arthur,CHRISTIAN,ArthurCH71@usf.edu,Senior,criminal justice and fire protection,2.375
+2133298,Eli,CHRISTENSEN,EliCH73@usf.edu,Sophmore,miscellaneous business & medical administration,1.75
+5334459,Andres,LEACH,AndresLE88@usf.edu,Sophmore,statistics and decision science,2
+2297177,Gaye,GIBBS,GayeGI83@usf.edu,Freshman,mechanical engineering,1.75
+7255167,Fulton,NOLAN,FultonNO56@usf.edu,Junior,physical fitness parks recreation and leisure,2.33333
+4998614,Alessandro,HALE,AlessandroHA19@usf.edu,Sophmore,industrial production technologies,2.0625
+8543373,Shubhankar,KENNEDY,ShubhankarKE95@usf.edu,Junior,multi-disciplinary or general science,1.70833
+3793867,Ernest,MAXWELL,ErnestMA92@usf.edu,Junior,geosciences,2.33333
+8746967,Dawnna,VASQUEZ,DawnnaVA41@usf.edu,Sophmore,metallurgical engineering,1.6875
+4899345,Jodie,BENTON,JodieBE89@usf.edu,Sophmore,computer engineering,2.625
+5127369,Donaldson,POOLE,DonaldsonPO10@usf.edu,Freshman,biological engineering,1.125
+2683338,Brigid,HARDIN,BrigidHA36@usf.edu,Freshman,astronomy and astrophysics,2
+7232478,Waqaas,WOODARD,WaqaasWO91@usf.edu,Sophmore,miscellaneous agriculture,2.125
+9336125,Neva,MCDOWELL,NevaMC04@usf.edu,Sophmore,pre-law and legal studies,2.3125
+9122643,Amrik,MATHEWS,AmrikMA27@usf.edu,Sophmore,naval architecture and marine engineering,1.5625
+8684421,Blaire,DICKERSON,BlaireDI75@usf.edu,Freshman,general education,1.125
+1567799,Shamsher,MYERS,ShamsherMY56@usf.edu,Junior,management information systems and statistics,1.54167
+7616759,Heather-Mairi,MARTINEZ,Heather-MairiMA19@usf.edu,Freshman,geology and earth science,1.125
+7237452,Isaac,ANDREWS,IsaacAN59@usf.edu,Sophmore,miscellaneous health medical professions,2.625
+4686936,Sinead,WILCOX,SineadWI26@usf.edu,Freshman,biomedical engineering,1.5
+8112955,Martin,MORTON,MartinMO80@usf.edu,Sophmore,natural resources management,1.4375
+6342741,Jaspal,CHANG,JaspalCH70@usf.edu,Sophmore,counseling psychology,1.3125
+5363943,Jenness-Louise,PATTON,Jenness-LouisePA91@usf.edu,Junior,forestry,2.29167
+7251397,Frazier,ROLLINS,FrazierRO30@usf.edu,Junior,mass media,1.54167
+7328479,Darin,CAMACHO,DarinCA48@usf.edu,Senior,commercial art and graphic design,2.1875
+2931634,Jennifer,JOSEPH,JenniferJO19@usf.edu,Freshman,military technologies,2.5
+2451858,Amar,DIAZ,AmarDI66@usf.edu,Sophmore,interdisciplinary social sciences,1.5
+1426586,Sarean,BUCK,SareanBU14@usf.edu,Senior,physical fitness parks recreation and leisure,1.875
+4284284,Carolynn,DODSON,CarolynnDO51@usf.edu,Freshman,environmental engineering,0.75
+1536151,Carey,RODRIGUEZ,CareyRO23@usf.edu,Sophmore,electrical,2.375
+7239616,Tom,PEREZ,TomPE00@usf.edu,Senior,molecular biology,2.03125
+1513733,Raymond,CORDOVA,RaymondCO19@usf.edu,Sophmore,animal sciences,1.6875
+5748997,Hayden,CHEN,HaydenCH89@usf.edu,Junior,civil engineering,1.70833
+3778895,Janita,ESCOBAR,JanitaES87@usf.edu,Sophmore,liberal arts,1.75
+4377447,Aimi,CHUNG,AimiCH80@usf.edu,Freshman,biomedical engineering,1.625
+2572858,Corrin,HUGHES,CorrinHU45@usf.edu,Senior,biology,1.9375
+2757519,Jeff,NOVAK,JeffNO38@usf.edu,Senior,history,2.25
+1556138,Jackie,PEREZ,JackiePE48@usf.edu,Senior,information sciences,1.875
+4775731,Aynsley,BLACKBURN,AynsleyBL69@usf.edu,Senior,special needs education,2.0625
+9742729,Claudia,ONEAL,ClaudiaON41@usf.edu,Freshman,film video and photographic arts,2.125
+7864237,Annette,SNOW,AnnetteSN12@usf.edu,Sophmore,miscellaneous engineering technologies,2.125
+2453815,Carolyn,CHANG,CarolynCH16@usf.edu,Junior,chemical engineering,2.08333
+6992223,Keirghan,MCMILLAN,KeirghanMC46@usf.edu,Senior,miscellaneous education,1.75
+3953971,John-David,ALVAREZ,John-DavidAL49@usf.edu,Senior,criminal justice and fire protection,1.96875
+2223984,Paniayotis,MULLEN,PaniayotisMU98@usf.edu,Sophmore,composition and rhetoric,1.9375
+1437371,Jethro,GOLDEN,JethroGO82@usf.edu,Freshman,chemical engineering,3
+6182988,Najeeb,SUMMERS,NajeebSU55@usf.edu,Freshman,nutrition sciences,1.125
+5565189,Nam,SCHROEDER,NamSC58@usf.edu,Freshman,public administration,2.375
+3134871,Illushka,SELLERS,IllushkaSE86@usf.edu,Sophmore,nuclear,2.1875
+7661156,Adebayo,VALENCIA,AdebayoVA84@usf.edu,Sophmore,botany,2.5625
+3312511,Naveed,DAVILA,NaveedDA03@usf.edu,Junior,multi-disciplinary or general science,1.70833
+4963598,Kirsty,ATKINSON,KirstyAT95@usf.edu,Freshman,miscellaneous biology,2.625
+6544244,Myke,LONG,MykeLO23@usf.edu,Junior,genetics,2.125
+4548885,Ghazala,BIRD,GhazalaBI11@usf.edu,Sophmore,communication technologies,1.875
+1747246,Eva,FOX,EvaFO34@usf.edu,Junior,journalism,2.16667
+1455973,Katie-Anne,DAVIDSON,Katie-AnneDA60@usf.edu,Freshman,natural resources management,2.375
+6772565,Malkeet,HIGGINS,MalkeetHI25@usf.edu,Sophmore,communications,1.75
+8759419,Shmaiala,ROSALES,ShmaialaRO03@usf.edu,Senior,environmental science,2.3125
+6233956,Shart,MULLINS,ShartMU83@usf.edu,Junior,fine arts,2.25
+3261956,Dawne,LE,DawneLE27@usf.edu,Freshman,engineering and industrial management,1.5
+5858876,Janis,MERCER,JanisME32@usf.edu,Freshman,computer programming and data processing,2
+2971548,Imran,BARRON,ImranBA93@usf.edu,Senior,humanities,2.375
+2362548,Gar,CHOI,GarCH72@usf.edu,Senior,computer programming and data processing,2.28125
+6876637,Avril,BROCK,AvrilBR08@usf.edu,Senior,astronomy and astrophysics,2.9375
+3783394,Mandy,FITZPATRICK,MandyFI42@usf.edu,Freshman,soil science,3.25
+5591619,Faye,SWEENEY,FayeSW37@usf.edu,Junior,criminology,2.33333
+9956827,Leslie,HOGAN,LeslieHO08@usf.edu,Freshman,computer engineering,2
+3984168,Joey,HUBBARD,JoeyHU18@usf.edu,Junior,aerospace engineering,2.16667
+9255399,Sheryl,IBARRA,SherylIB36@usf.edu,Sophmore,criminology,2.8125
+9598828,Vanya,STEELE,VanyaST88@usf.edu,Freshman,plant science and agronomy,2.625
+6631295,Mari,HOLT,MariHO29@usf.edu,Freshman,miscellaneous education,2.75
+4194427,Carey,JENSEN,CareyJE95@usf.edu,Sophmore,treatment therapy professions,2.875
+3667812,Morgan,CARROLL,MorganCA40@usf.edu,Senior,industrial and manufacturing engineering,2.65625
+2214457,Kimberley-Lee,BAUER,Kimberley-LeeBA82@usf.edu,Sophmore,agriculture production and management,2.5625
+8567382,Skye,PINEDA,SkyePI12@usf.edu,Freshman,natural resources management,2
+4797373,Yasmin,DUFFY,YasminDU60@usf.edu,Freshman,advertising and public relations,2.25
+7981467,Josie,RODRIGUEZ,JosieRO78@usf.edu,Senior,civil engineering,2.59375
+7171651,Nyssa,NGUYEN,NyssaNG03@usf.edu,Freshman,aerospace engineering,2.5
+4116655,Jaimine,VALENCIA,JaimineVA49@usf.edu,Junior,business economics,2.5
+5713578,Doneva,MENDEZ,DonevaME29@usf.edu,Junior,environmental science,2.66667
+4678687,Fabian,RIVERA,FabianRI70@usf.edu,Freshman,biology,2.375
+3598757,Kelda,ORTIZ,KeldaOR82@usf.edu,Freshman,advertising and public relations,2.75
+6451768,Katie-Jane,FERRELL,Katie-JaneFE46@usf.edu,Junior,linguistics and comparative language and literature,2.25
+2473226,Clifford,SULLIVAN,CliffordSU59@usf.edu,Senior,atmospheric sciences and meteorology,2.46875
+6331614,Victoria-Ann,STEVENSON,Victoria-AnnST07@usf.edu,Senior,journalism,2.375
+8134633,Nancy,INGRAM,NancyIN05@usf.edu,Freshman,business economics,2.25
+5251194,Karis,LE,KarisLE22@usf.edu,Senior,electrical engineering technology,2.53125
+2431994,Rosalynn,LANE,RosalynnLA66@usf.edu,Freshman,actuarial science,2.25
+8449535,Cherrie,HO,CherrieHO83@usf.edu,Freshman,social psychology,2.625
+8411276,Merlyn,LEE,MerlynLE57@usf.edu,Sophmore,secondary teacher education,2.6875
+9357127,Cortez,KANE,CortezKA38@usf.edu,Sophmore,drama and theater arts,2.5625
+8883639,Deborah,BLEVINS,DeborahBL36@usf.edu,Senior,electrical,2.25
+9117484,Melanie-Jane,ALEXANDER,Melanie-JaneAL35@usf.edu,Senior,naval architecture and marine engineering,2.25
+6962882,Hay,RAMSEY,HayRA29@usf.edu,Junior,social science or history teacher education,2.16667
+7752539,John-Paul,FOX,John-PaulFO67@usf.edu,Sophmore,naval architecture and marine engineering,2.875
+6923185,Marino,GLENN,MarinoGL48@usf.edu,Senior,miscellaneous business & medical administration,2.21875
+2248959,Nara,VALENZUELA,NaraVA13@usf.edu,Junior,journalism,2.41667
+8759555,Vivien,BALDWIN,VivienBA74@usf.edu,Freshman,interdisciplinary social sciences,2.875
+1636653,Sheilian,BURGESS,SheilianBU82@usf.edu,Senior,physical and health education teaching,2.75
+7117596,Grant,ORTIZ,GrantOR47@usf.edu,Freshman,multi/interdisciplinary studies,2.375
+5247354,Arabella,GUTIERREZ,ArabellaGU51@usf.edu,Freshman,medical technologies technicians,3.625
+3125451,Kelly-Anne,CHRISTENSEN,Kelly-AnneCH38@usf.edu,Senior,community and public health,2.375
+3487446,Lyana,RICH,LyanaRI65@usf.edu,Senior,educational psychology,2.875
+4415883,Dana,FLOWERS,DanaFL62@usf.edu,Freshman,pharmacology,2.875
+4853169,Kirsty,DUNCAN,KirstyDU80@usf.edu,Sophmore,physical and health education teaching,2.25
+6632986,Justina,TERRY,JustinaTE20@usf.edu,Freshman,theology and religious vocations,2.25
+8765446,Yin,WILSON,YinWI26@usf.edu,Junior,pharmacology,2.5
+7672836,Alyn,STRONG,AlynST40@usf.edu,Senior,computer networking and telecommunications,2.46875
+8648451,Anna-Teraysa,RANDOLPH,Anna-TeraysaRA11@usf.edu,Freshman,art and music education,1.875
+3719636,Misty,CONWAY,MistyCO43@usf.edu,Senior,zoology,2.8125
+3696498,Rawson,WONG,RawsonWO30@usf.edu,Senior,health and medical administrative services,2.34375
+3637891,Stanley,HATFIELD,StanleyHA89@usf.edu,Senior,mathematics and computer science,2.375
+4897632,Rossalyn,FREDERICK,RossalynFR25@usf.edu,Junior,physical and health education teaching,2.75
+4255629,Joe,PHELPS,JoePH88@usf.edu,Freshman,metallurgical engineering,3.125
+8678927,Vikash,GREENE,VikashGR72@usf.edu,Junior,art history and criticism,2.20833
+1311972,Aman,MCINTYRE,AmanMC22@usf.edu,Junior,hospitality management,2.58333
+1727875,Farid,MCCULLOUGH,FaridMC58@usf.edu,Freshman,secondary teacher education,2.125
+3712754,Linsay,STEELE,LinsayST33@usf.edu,Sophmore,forestry,2.5625
+8451847,Aedan,HAYS,AedanHA57@usf.edu,Sophmore,computer administration management and security,2.25
+4426814,Gilleasbuig,BARTLETT,GilleasbuigBA16@usf.edu,Senior,geology and earth science,2.53125
+6832841,Magdalana,PENA,MagdalanaPE76@usf.edu,Freshman,political science and government,2.75
+4498484,Norelle,ROGERS,NorelleRO13@usf.edu,Junior,biology,2.54167
+1761429,Fida,RAMIREZ,FidaRA19@usf.edu,Sophmore,communication disorders sciences and services,2.875
+6334264,Tanoja,COOPER,TanojaCO13@usf.edu,Senior,neuroscience,2.53125
+9779163,Isiua,BOYER,IsiuaBO36@usf.edu,Senior,physics,2.46875
+5155475,Dee,JENSEN,DeeJE92@usf.edu,Freshman,public administration,2.375
+3767813,Orna,BARRY,OrnaBA25@usf.edu,Senior,anthropology and archeology,2.4375
+9494983,Mir-Reza,HART,Mir-RezaHA60@usf.edu,Junior,multi/interdisciplinary studies,2.5
+1411715,Johnathan,CLAYTON,JohnathanCL27@usf.edu,Junior,medical technologies technicians,2.54167
+2929858,Jhana,OSBORNE,JhanaOS51@usf.edu,Senior,pre-law and legal studies,2.28125
+9789318,Imran,MCCANN,ImranMC09@usf.edu,Junior,miscellaneous biology,2.58333
+3668848,Joni,BRADFORD,JoniBR73@usf.edu,Junior,liberal arts,2.54167
+4234514,Wiam,BRENNAN,WiamBR87@usf.edu,Junior,chemical engineering,2.66667
+3135122,Cornelis,OLSON,CornelisOL81@usf.edu,Senior,miscellaneous engineering technologies,2.40625
+7716414,Teague,BUSH,TeagueBU03@usf.edu,Junior,interdisciplinary social sciences,2.16667
+8754997,Lara,HICKS,LaraHI92@usf.edu,Senior,information sciences,2.28125
+7628532,Sharonne,FROST,SharonneFR01@usf.edu,Sophmore,industrial production technologies,2.25
+5545679,Jody,OCHOA,JodyOC83@usf.edu,Sophmore,miscellaneous business & medical administration,2.5
+9265114,Gethin,NIXON,GethinNI80@usf.edu,Junior,petroleum engineering,2.29167
+4368323,Ann,AVILA,AnnAV02@usf.edu,Senior,philosophy and religious studies,2.34375
+6867621,Carrin,BAILEY,CarrinBA92@usf.edu,Junior,fine arts,2.33333
+4957641,Manal,ROSARIO,ManalRO75@usf.edu,Senior,botany,2.53125
+5771222,Blyth,MELTON,BlythME73@usf.edu,Senior,general agriculture,2.375
+5835617,Yazan,WAGNER,YazanWA30@usf.edu,Junior,chemistry,2.375
+2451575,Aya,LIVINGSTON,AyaLI10@usf.edu,Senior,united states history,2.5625
+5699558,Lewis,BARRETT,LewisBA94@usf.edu,Freshman,statistics and decision science,3.125
+9366284,Tai,SHIELDS,TaiSH80@usf.edu,Junior,botany,2.79167
+1613278,Owain,DYER,OwainDY86@usf.edu,Sophmore,physical and health education teaching,2.375
+8341316,Gustavus,MANNING,GustavusMA49@usf.edu,Junior,computer programming and data processing,2.58333
+2931288,Yvonne,JACOBSON,YvonneJA87@usf.edu,Senior,astronomy and astrophysics,2.25
+9442278,Breige,SCHROEDER,BreigeSC69@usf.edu,Freshman,art history and criticism,3
+6914657,Afshan,NOLAN,AfshanNO63@usf.edu,Senior,fine arts,3.03125
+3755324,Duncan,POWELL,DuncanPO73@usf.edu,Sophmore,treatment therapy professions,2.375
+5397277,Laura-Jane,MEJIA,Laura-JaneME08@usf.edu,Junior,computer administration management and security,2.58333
+3575893,Shauna,SINGH,ShaunaSI16@usf.edu,Senior,secondary teacher education,2.53125
+2123572,Sheryl,RUIZ,SherylRU27@usf.edu,Sophmore,actuarial science,2.125
+4678514,Derrick,MAYNARD,DerrickMA55@usf.edu,Junior,physical and health education teaching,2.5
+5258481,Jalal,EATON,JalalEA64@usf.edu,Senior,mathematics teacher education,2.21875
+2664688,Rabia,VALDEZ,RabiaVA58@usf.edu,Senior,general social sciences,2.4375
+5324921,Si-Po,RIGGS,Si-PoRI31@usf.edu,Freshman,educational psychology,2.875
+6766874,Ernest,KRUEGER,ErnestKR23@usf.edu,Junior,business management and administration,2.70833
+1237288,Nadine,GRAY,NadineGR29@usf.edu,Senior,health and medical preparatory programs,2.375
+9184159,Jonathen,VANG,JonathenVA01@usf.edu,Sophmore,health and medical preparatory programs,2.5625
+3224352,Kara,LUCERO,KaraLU91@usf.edu,Freshman,miscellaneous fine arts,2.875
+5939948,Dennise,MCCANN,DenniseMC29@usf.edu,Sophmore,computer administration management and security,2.9375
+9728889,Nial,BAUTISTA,NialBA87@usf.edu,Junior,social work,2.375
+3573138,Arran,MYERS,ArranMY98@usf.edu,Senior,nutrition sciences,2.46875
+4721569,Gwyneth,BARRON,GwynethBA44@usf.edu,Junior,fine arts,2.95833
+8296142,Carra,THOMPSON,CarraTH14@usf.edu,Junior,criminal justice and fire protection,2.58333
+9595167,Matilda,SAUNDERS,MatildaSA09@usf.edu,Junior,architecture,2.58333
+1898584,Lennox,SALAZAR,LennoxSA40@usf.edu,Freshman,multi/interdisciplinary studies,2.875
+6795979,Rakesh,NGUYEN,RakeshNG93@usf.edu,Freshman,computer and information systems,2.5
+9652449,Courtney,ROY,CourtneyRO38@usf.edu,Freshman,miscellaneous agriculture,2.625
+6797888,Robyn,TRAVIS,RobynTR18@usf.edu,Junior,mass media,2.33333
+6124578,Iram,FREDERICK,IramFR32@usf.edu,Junior,physical and health education teaching,2.70833
+7756824,Hammad,HOLLAND,HammadHO82@usf.edu,Freshman,cognitive science and biopsychology,2.125
+4218786,Leslie-Anne,CERVANTES,Leslie-AnneCE27@usf.edu,Freshman,miscellaneous health medical professions,1.75
+4784853,Farheen,PATEL,FarheenPA47@usf.edu,Junior,fine arts,2.58333
+7412978,Debora,WARE,DeboraWA23@usf.edu,Junior,nutrition sciences,2.45833
+1528519,Barbara,CARTER,BarbaraCA68@usf.edu,Senior,philosophy and religious studies,2.5
+4597371,Eliza,BARNES,ElizaBA40@usf.edu,Freshman,geosciences,1.375
+4374932,Banjamin,FITZPATRICK,BanjaminFI07@usf.edu,Freshman,general engineering,2.375
+2759517,Krystyna,HICKS,KrystynaHI63@usf.edu,Senior,community and public health,2.25
+2576465,Rosalyn,HUYNH,RosalynHU15@usf.edu,Freshman,computer and information systems,2.75
+7952283,Korena,FARMER,KorenaFA34@usf.edu,Freshman,miscellaneous fine arts,2.75
+7593457,Jaimie,HARRINGTON,JaimieHA11@usf.edu,Junior,computer networking and telecommunications,2.41667
+9816922,Nora,HAMMOND,NoraHA67@usf.edu,Senior,miscellaneous biology,2.34375
+4874475,Nyree,QUINN,NyreeQU20@usf.edu,Sophmore,political science and government,2.1875
+7366298,Claire-Ann,CARR,Claire-AnnCA17@usf.edu,Freshman,advertising and public relations,2.25
+4195839,Kismit,EATON,KismitEA00@usf.edu,Junior,operations logistics and e-commerce,2.45833
+3461146,Diama,CANTRELL,DiamaCA97@usf.edu,Junior,atmospheric sciences and meteorology,2.16667
+9714939,Lorna,PACE,LornaPA94@usf.edu,Freshman,cognitive science and biopsychology,1.875
+5113461,Rahoof,MENDEZ,RahoofME18@usf.edu,Junior,other foreign languages,2.45833
+8457498,Crystall,ROMAN,CrystallRO89@usf.edu,Sophmore,cosmetology services and culinary arts,2.5625
+5112646,Darrel,WHITAKER,DarrelWH74@usf.edu,Freshman,educational psychology,2.5
+5352386,Sharron,ZAVALA,SharronZA42@usf.edu,Sophmore,marketing and marketing research,3
+5524241,Jordan,VALENZUELA,JordanVA98@usf.edu,Freshman,library science,2.375
+1381579,Sajda,RICHARDS,SajdaRI77@usf.edu,Senior,miscellaneous engineering technologies,2.8125
+5733863,Sheryl,CROSS,SherylCR69@usf.edu,Freshman,miscellaneous fine arts,2.625
+1986735,Kirsti,HARRISON,KirstiHA77@usf.edu,Junior,astronomy and astrophysics,2.58333
+4348317,Margueritte,ORTEGA,MargueritteOR73@usf.edu,Sophmore,art and music education,2.3125
+5831177,Kelly-Anne,CONRAD,Kelly-AnneCO83@usf.edu,Junior,secondary teacher education,2.45833
+1288966,Farah,FERRELL,FarahFE48@usf.edu,Freshman,chemistry,2.25
+6331751,Alphonsa,HOWELL,AlphonsaHO60@usf.edu,Senior,pre-law and legal studies,2.4375
+3242164,Ciarin,PARKER,CiarinPA66@usf.edu,Senior,geological and geophysical engineering,2.75
+1153132,Carrie,DELACRUZ,CarrieDE98@usf.edu,Junior,political science and government,2.5
+1331679,Syema,BATES,SyemaBA32@usf.edu,Senior,treatment therapy professions,2.625
+7754267,Rooney,ANDRADE,RooneyAN12@usf.edu,Sophmore,applied mathematics,2.125
+7689712,Nikki,MACDONALD,NikkiMA85@usf.edu,Freshman,multi/interdisciplinary studies,2.5
+1174759,Hollie,SANCHEZ,HollieSA60@usf.edu,Sophmore,english language and literature,2.3125
+3883535,Shirley-Anne,BRADSHAW,Shirley-AnneBR35@usf.edu,Junior,mathematics and computer science,2.5
+3886657,Ziawr,LAWSON,ZiawrLA86@usf.edu,Sophmore,food science,2.0625
+3615833,Edward,CARLSON,EdwardCA42@usf.edu,Junior,pre-law and legal studies,2.5
+1818635,Elsbeth,BRIDGES,ElsbethBR67@usf.edu,Senior,construction services,2.125
+6639724,Asia,DAVIS,AsiaDA81@usf.edu,Freshman,visual and performing arts,3.875
+8569271,Shelly,FOSTER,ShellyFO46@usf.edu,Junior,industrial and organizational psychology,2.45833
+1877749,Harnake,VAZQUEZ,HarnakeVA34@usf.edu,Freshman,microbiology,2.5
+2436679,Marnie,WOODARD,MarnieWO34@usf.edu,Freshman,soil science,2.75
+4651222,Shari-Lee,BONILLA,Shari-LeeBO12@usf.edu,Sophmore,theology and religious vocations,1.875
+6388943,Heh,CHANEY,HehCH80@usf.edu,Junior,linguistics and comparative language and literature,2.33333
+4887288,Shanaj,ARELLANO,ShanajAR81@usf.edu,Senior,nutrition sciences,2.28125
+2981499,Nanette,STRONG,NanetteST63@usf.edu,Freshman,educational psychology,2.375
+2742515,Beth,JORDAN,BethJO88@usf.edu,Freshman,interdisciplinary social sciences,2.75
+5832184,Rosslyn,COWAN,RosslynCO99@usf.edu,Senior,drama and theater arts,2.59375
+5815456,Kerry,GUERRERO,KerryGU73@usf.edu,Freshman,physical fitness parks recreation and leisure,3
+6443777,Tuho,WALKER,TuhoWA83@usf.edu,Senior,construction services,2.28125
+4255752,Laurna,AYERS,LaurnaAY32@usf.edu,Junior,zoology,2.29167
+4245224,Fionn,HOWARD,FionnHO85@usf.edu,Sophmore,other foreign languages,2.6875
+3549965,Tereze,DAUGHERTY,TerezeDA61@usf.edu,Senior,medical technologies technicians,2.4375
+7439612,Miles,YODER,MilesYO96@usf.edu,Junior,geosciences,2.29167
+8325897,Katie,BENTLEY,KatieBE10@usf.edu,Sophmore,multi-disciplinary or general science,2.875
+5975428,Perveen,HANCOCK,PerveenHA46@usf.edu,Senior,nutrition sciences,2.1875
+7699818,Parvinder,MORA,ParvinderMO05@usf.edu,Freshman,agriculture production and management,2.25
+6516564,Francyne,BANKS,FrancyneBA36@usf.edu,Sophmore,environmental engineering,2.125
+9549474,Anneela,VILLEGAS,AnneelaVI68@usf.edu,Junior,humanities,2.125
+6622243,Toni-Michelle,CHARLES,Toni-MichelleCH16@usf.edu,Freshman,botany,2.75
+4773994,Stefanos,WOLF,StefanosWO97@usf.edu,Sophmore,physical and health education teaching,2.625
+6913786,Ranbir,SHERMAN,RanbirSH55@usf.edu,Junior,intercultural and international studies,2.33333
+6361978,Christian,EATON,ChristianEA37@usf.edu,Freshman,community and public health,1.875
+8164831,Ariane,RODRIGUEZ,ArianeRO00@usf.edu,Freshman,n/a (less than bachelor's degree),2.75
+7223555,Katarina,VILLARREAL,KatarinaVI23@usf.edu,Freshman,microbiology,2.125
+4931589,Jeannette,EWING,JeannetteEW81@usf.edu,Freshman,genetics,2.375
+7485533,Katherine,SANDERS,KatherineSA20@usf.edu,Sophmore,hospitality management,2.5625
+8455371,Shabhana,RIVERS,ShabhanaRI64@usf.edu,Junior,early childhood education,2.875
+6518365,Nader,BELTRAN,NaderBE23@usf.edu,Sophmore,medical assisting services,2.3125
+5834951,Luis,KRAUSE,LuisKR75@usf.edu,Freshman,human resources and personnel management,2.375
+3926858,Dolores,DUARTE,DoloresDU58@usf.edu,Sophmore,nuclear,2.75
+2199894,Austin,DRAKE,AustinDR69@usf.edu,Senior,public administration,2.125
+3786457,Dein,MORGAN,DeinMO78@usf.edu,Junior,hospitality management,2.20833
+4468863,Elinor,SANDOVAL,ElinorSA36@usf.edu,Sophmore,mathematics,2.5625
+3118167,Nahid,CARROLL,NahidCA05@usf.edu,Freshman,computer programming and data processing,2
+2714994,Harvinder,MCKEE,HarvinderMC04@usf.edu,Freshman,biology,2.5
+5714817,Ashley,SHAFFER,AshleySH36@usf.edu,Sophmore,geological and geophysical engineering,3.0625
+1977884,Mariette,BRADLEY,MarietteBR45@usf.edu,Senior,multi/interdisciplinary studies,2.71875
+5771816,Jeanne,HARVEY,JeanneHA22@usf.edu,Freshman,mathematics and computer science,2.875
+7659942,Fernanda,ESTES,FernandaES12@usf.edu,Freshman,cognitive science and biopsychology,3.25
+2993283,Ainslie,MARKS,AinslieMA61@usf.edu,Senior,miscellaneous fine arts,2.25
+2875516,Frida,CLAYTON,FridaCL75@usf.edu,Junior,engineering and industrial management,2.58333
+2229363,Euphemia,KLEIN,EuphemiaKL69@usf.edu,Freshman,computer networking and telecommunications,2.875
+8363442,Monica,ANTHONY,MonicaAN37@usf.edu,Sophmore,botany,2.375
+9378738,Elli,ASHLEY,ElliAS13@usf.edu,Senior,ecology,2.375
+8569824,Jeetinder,LIU,JeetinderLI52@usf.edu,Senior,engineering mechanics physics and science,2.6875
+6173715,Anim,GALVAN,AnimGA42@usf.edu,Freshman,sociology,2.5
+2412721,Julian,RYAN,JulianRY73@usf.edu,Freshman,chemical engineering,2.125
+4668938,Duar,KIRK,DuarKI40@usf.edu,Sophmore,astronomy and astrophysics,2.625
+4199166,Titilola,COBB,TitilolaCO90@usf.edu,Junior,forestry,2.95833
+8414623,Rifat,PHILLIPS,RifatPH29@usf.edu,Sophmore,history,3
+9982273,Yen,FRANCIS,YenFR65@usf.edu,Junior,school student counseling,2.91667
+8289248,Kirstin,SHANNON,KirstinSH00@usf.edu,Sophmore,early childhood education,2.5
+2799555,Laraine,PARKER,LarainePA26@usf.edu,Sophmore,humanities,2.75
+2136414,Andreas,GARRISON,AndreasGA02@usf.edu,Senior,social science or history teacher education,2.59375
+1957326,Seumas,BUSH,SeumasBU35@usf.edu,Sophmore,teacher education: multiple levels,2.3125
+9881522,Naveed,ONEAL,NaveedON30@usf.edu,Junior,area ethnic and civilization studies,2.33333
+6129727,Safe,HENSLEY,SafeHE19@usf.edu,Sophmore,nuclear engineering,2.375
+5728751,Tovah,LOGAN,TovahLO20@usf.edu,Freshman,marketing and marketing research,2.75
+8141157,Wendi,MATHIS,WendiMA05@usf.edu,Senior,industrial production technologies,2.8125
+8386684,Morris,MEDINA,MorrisME48@usf.edu,Freshman,health and medical preparatory programs,3
+6218762,Jamie,HOBBS,JamieHO29@usf.edu,Senior,human resources and personnel management,2.34375
+3652924,Fabien,POPE,FabienPO19@usf.edu,Senior,nuclear,2.46875
+1595545,Coney,CISNEROS,ConeyCI56@usf.edu,Junior,liberal arts,2.33333
+1686281,Clinton,RICE,ClintonRI87@usf.edu,Sophmore,biomedical engineering,2.6875
+2242636,Alia,ONEAL,AliaON65@usf.edu,Junior,miscellaneous psychology,2.66667
+6235342,Keston,RYAN,KestonRY15@usf.edu,Junior,theology and religious vocations,2.875
+4695493,Romana,VANG,RomanaVA72@usf.edu,Freshman,united states history,2.875
+5522392,Chloe,LAMBERT,ChloeLA28@usf.edu,Sophmore,computer science,2.375
+9487476,Stephen,ZAMORA,StephenZA70@usf.edu,Junior,area ethnic and civilization studies,2.54167
+8817623,Leasa,PATRICK,LeasaPA68@usf.edu,Freshman,criminology,1.875
+8812642,Karrie,CLARKE,KarrieCL10@usf.edu,Freshman,mathematics,2.25
+7374197,Subha,TRAN,SubhaTR23@usf.edu,Freshman,medical assisting services,2.875
+4929516,Ashleah,KAISER,AshleahKA68@usf.edu,Senior,mass media,2.28125
+8775543,Ailish,YOUNG,AilishYO25@usf.edu,Junior,area ethnic and civilization studies,2.5
+3859537,Misbah,MCKNIGHT,MisbahMC53@usf.edu,Sophmore,construction services,2.875
+3293156,Razia,COOLEY,RaziaCO68@usf.edu,Senior,nursing,2.3125
+1784884,Charlene,CLAYTON,CharleneCL12@usf.edu,Junior,international relations,2.75
+3192225,Paige,REYES,PaigeRE81@usf.edu,Senior,communication technologies,2.4375
+4273863,Emily-Anne,ACOSTA,Emily-AnneAC62@usf.edu,Junior,music,2.45833
+6491275,Anjie,KNIGHT,AnjieKN64@usf.edu,Freshman,materials engineering and materials science,2.625
+9527317,Giles,YODER,GilesYO50@usf.edu,Senior,computer programming and data processing,2.34375
+3732992,Ursula,AVERY,UrsulaAV85@usf.edu,Senior,social science or history teacher education,2.6875
+9762245,Lindsey,BELL,LindseyBE93@usf.edu,Junior,school student counseling,2.375
+8473799,Donna,BRADLEY,DonnaBR50@usf.edu,Senior,miscellaneous agriculture,2.46875
+8189794,Hughgo,HARRINGTON,HughgoHA34@usf.edu,Sophmore,miscellaneous engineering technologies,2.6875
+6352617,Jacqui,SHARP,JacquiSH95@usf.edu,Sophmore,electrical,2.8125
+1425213,Dale,CUMMINGS,DaleCU47@usf.edu,Sophmore,journalism,3.125
+6771783,Kerry-Jane,SWEENEY,Kerry-JaneSW97@usf.edu,Freshman,miscellaneous social sciences,3.25
+9122196,Parminder,FLOYD,ParminderFL96@usf.edu,Senior,general education,2.8125
+2386171,Carenne,ESCOBAR,CarenneES17@usf.edu,Senior,nutrition sciences,3.03125
+7386891,India,JACOBS,IndiaJA00@usf.edu,Freshman,library science,2.875
+8288661,Layla,KOCH,LaylaKO32@usf.edu,Senior,journalism,3.03125
+1436463,Joni,WALSH,JoniWA46@usf.edu,Freshman,miscellaneous social sciences,3.375
+8753443,Noreen,RUIZ,NoreenRU80@usf.edu,Junior,visual and performing arts,3.04167
+1634596,Murray,SCOTT,MurraySC46@usf.edu,Sophmore,molecular biology,3.25
+3648454,Wade,KAISER,WadeKA40@usf.edu,Sophmore,mechanical engineering,3
+1525639,Dalvinder,HARRELL,DalvinderHA66@usf.edu,Sophmore,hospitality management,3.125
+1333287,Jose,CLAY,JoseCL82@usf.edu,Sophmore,general education,2.4375
+5972543,Jasson,NGUYEN,JassonNG62@usf.edu,Junior,architectural engineering,3.16667
+3943639,Charlyne,DUNCAN,CharlyneDU56@usf.edu,Freshman,art history and criticism,3
+4184193,Freya,TODD,FreyaTO13@usf.edu,Sophmore,special needs education,2.5625
+9334196,Yaseen,LANE,YaseenLA56@usf.edu,Junior,forestry,2.79167
+7425111,Muro,NIXON,MuroNI76@usf.edu,Junior,criminal justice and fire protection,2.83333
+6187315,Gabriel,BOWEN,GabrielBO49@usf.edu,Sophmore,miscellaneous psychology,3.0625
+6545629,Trina,LEONARD,TrinaLE83@usf.edu,Freshman,educational psychology,2.625
+8582569,Ciaron,SAWYER,CiaronSA22@usf.edu,Freshman,hospitality management,3.125
+6829282,Sylvie,RANGEL,SylvieRA06@usf.edu,Freshman,community and public health,3.125
+5946328,Danny,KHAN,DannyKH47@usf.edu,Freshman,agricultural economics,2.875
+3648859,Hamzah,OLSON,HamzahOL06@usf.edu,Senior,miscellaneous business & medical administration,3.0625
+6559284,Gabriel,WILKINS,GabrielWI29@usf.edu,Freshman,international business,3.375
+7965721,Ewin,COBB,EwinCO80@usf.edu,Freshman,marketing and marketing research,3.125
+3129679,Terri,REED,TerriRE62@usf.edu,Freshman,nuclear engineering,2.875
+3241234,Leain,WARREN,LeainWA48@usf.edu,Senior,science and computer teacher education,3.15625
+7572548,Lup,MELENDEZ,LupME29@usf.edu,Junior,criminal justice and fire protection,2.83333
+8116443,Sandra,WYATT,SandraWY40@usf.edu,Freshman,computer science,2.875
+8888898,Akass,NICHOLS,AkassNI68@usf.edu,Freshman,intercultural and international studies,3.5
+5446248,Hedley,PARSONS,HedleyPA92@usf.edu,Sophmore,architecture,3.0625
+5915844,Trudi,SELLERS,TrudiSE77@usf.edu,Sophmore,general social sciences,2.875
+5521787,Elizabeth-May,SHAH,Elizabeth-MaySH90@usf.edu,Freshman,pre-law and legal studies,3
+2267486,Hania,COOKE,HaniaCO69@usf.edu,Junior,mathematics,2.91667
+8195142,Sandip,JACKSON,SandipJA33@usf.edu,Junior,petroleum engineering,2.79167
+5483579,Dario,CASTILLO,DarioCA60@usf.edu,Junior,library science,2.95833
+4928385,Sabina,TATE,SabinaTA87@usf.edu,Freshman,philosophy and religious studies,3.125
+9738261,Jatinder,PAYNE,JatinderPA96@usf.edu,Junior,family and consumer sciences,2.75
+2195557,Evelyn,HAYDEN,EvelynHA65@usf.edu,Freshman,atmospheric sciences and meteorology,3
+6429326,Frank,ROLLINS,FrankRO45@usf.edu,Sophmore,educational administration and supervision,3.3125
+1679546,Lorri,YU,LorriYU59@usf.edu,Sophmore,physiology,3.125
+4985768,Adriane,GATES,AdrianeGA07@usf.edu,Junior,molecular biology,2.79167
+9367388,Diseye,PATTON,DiseyePA06@usf.edu,Freshman,accounting,3.5
+7545585,Carina,BARAJAS,CarinaBA96@usf.edu,Junior,geological and geophysical engineering,3.16667
+7234965,Sophiane,MAHONEY,SophianeMA11@usf.edu,Sophmore,history,3
+1662677,Adena,RIOS,AdenaRI37@usf.edu,Sophmore,history,2.6875
+9465886,Luvinia,GOULD,LuviniaGO37@usf.edu,Freshman,educational psychology,2.875
+2851967,Asaad,GLOVER,AsaadGL08@usf.edu,Senior,communication disorders sciences and services,3.15625
+5973489,Mariaina,HOLLOWAY,MariainaHO95@usf.edu,Senior,biomedical engineering,3.09375
+9877313,Athena,FAULKNER,AthenaFA50@usf.edu,Freshman,counseling psychology,3.25
+2121276,Cari-Anne,SAMPSON,Cari-AnneSA06@usf.edu,Senior,biomedical engineering,2.9375
+9236627,Chiara,GOOD,ChiaraGO09@usf.edu,Junior,miscellaneous education,2.95833
+4361528,Nina,HAMILTON,NinaHA84@usf.edu,Senior,secondary teacher education,3
+8592786,Stevyn,BEARD,StevynBE21@usf.edu,Freshman,miscellaneous engineering,3.25
+2517431,Mellisa,HOWE,MellisaHO39@usf.edu,Senior,area ethnic and civilization studies,2.78125
+3316563,Charlotte,BRUCE,CharlotteBR92@usf.edu,Sophmore,miscellaneous biology,2.875
+8628572,Meaghan,MONTOYA,MeaghanMO91@usf.edu,Senior,hospitality management,2.9375
+9367742,Murdo,HART,MurdoHA87@usf.edu,Sophmore,aerospace engineering,2.8125
+5266714,Basil,SCHNEIDER,BasilSC59@usf.edu,Junior,secondary teacher education,3.04167
+8956878,Gladys,HANSEN,GladysHA08@usf.edu,Senior,mechanical engineering,3.09375
+2212153,Wai,RODGERS,WaiRO31@usf.edu,Senior,miscellaneous agriculture,3.0625
+9273292,Naseen,MONTGOMERY,NaseenMO61@usf.edu,Senior,mining and mineral engineering,3.1875
+6541672,Adelaide,HORN,AdelaideHO57@usf.edu,Sophmore,military technologies,3
+7215945,Catrina,PRINCE,CatrinaPR31@usf.edu,Sophmore,educational psychology,2.9375
+2179624,Annabella,HOBBS,AnnabellaHO23@usf.edu,Sophmore,economics,3.375
+5297964,Sheryn,FORD,SherynFO71@usf.edu,Junior,petroleum engineering,3.08333
+5731635,Layla,COX,LaylaCO59@usf.edu,Junior,cosmetology services and culinary arts,2.95833
+9668543,Aisha,SPENCER,AishaSP50@usf.edu,Sophmore,court reporting,2.75
+3253439,Amanda,VELAZQUEZ,AmandaVE80@usf.edu,Freshman,general social sciences,3.5
+8279988,Cristopher,AYALA,CristopherAY63@usf.edu,Junior,miscellaneous biology,3.25
+6798129,Lubna,HANCOCK,LubnaHA85@usf.edu,Sophmore,general business,2.9375
+2552512,Leenah,ADAMS,LeenahAD52@usf.edu,Junior,electrical engineering,2.95833
+8174165,Denyse,FERRELL,DenyseFE95@usf.edu,Sophmore,mathematics teacher education,2.9375
+1445328,Caulette,GALLAGHER,CauletteGA21@usf.edu,Sophmore,miscellaneous business & medical administration,3.25
+9757415,Shiraz,JONES,ShirazJO49@usf.edu,Sophmore,linguistics and comparative language and literature,2.75
+1221697,Ottilie,WAGNER,OttilieWA63@usf.edu,Sophmore,electrical engineering technology,3
+7361166,Faiza,LEE,FaizaLE15@usf.edu,Junior,civil engineering,3.20833
+5554296,Ting-Ting,DAVIDSON,Ting-TingDA44@usf.edu,Freshman,statistics and decision science,3
+8521475,Caireen,BOYLE,CaireenBO99@usf.edu,Senior,social psychology,3.1875
+4746734,Jade,LINDSEY,JadeLI02@usf.edu,Senior,political science and government,3.125
+8166552,Roseleen,HURLEY,RoseleenHU51@usf.edu,Senior,materials science,3
+8658963,Rovel,MEADOWS,RovelME17@usf.edu,Freshman,united states history,2.5
+9626739,Sukhjit,WARE,SukhjitWA78@usf.edu,Junior,geosciences,3.29167
+8534697,Kiran,LOVE,KiranLO46@usf.edu,Freshman,statistics and decision science,3.125
+7359627,Priya,MORROW,PriyaMO99@usf.edu,Junior,criminology,2.95833
+4443629,Claudia,CORTEZ,ClaudiaCO23@usf.edu,Sophmore,mathematics teacher education,2.8125
+3747376,Kathryn,OLSEN,KathrynOL32@usf.edu,Freshman,composition and rhetoric,3
+2566496,Luan,BRANCH,LuanBR08@usf.edu,Junior,political science and government,3
+1677417,Trevor,WALKER,TrevorWA07@usf.edu,Junior,health and medical preparatory programs,3
+2657343,Josefine,BASS,JosefineBA38@usf.edu,Senior,food science,2.8125
+4895695,Linzi,CONTRERAS,LinziCO34@usf.edu,Sophmore,plant science and agronomy,2.875
+3798437,Armand,MCCALL,ArmandMC81@usf.edu,Junior,multi/interdisciplinary studies,2.91667
+2984565,Dermot,HOLDEN,DermotHO07@usf.edu,Senior,biological engineering,3.0625
+6916685,Bryden,LARSON,BrydenLA79@usf.edu,Freshman,miscellaneous education,2.875
+6335751,Trea-Ann,MORROW,Trea-AnnMO11@usf.edu,Sophmore,materials engineering and materials science,3.125
+3695574,Damen,ANDREWS,DamenAN97@usf.edu,Senior,naval architecture and marine engineering,2.90625
+9818447,Aiden,ACOSTA,AidenAC52@usf.edu,Sophmore,electrical,2.6875
+9367617,Beverley,ESPARZA,BeverleyES38@usf.edu,Junior,business management and administration,2.95833
+7816774,Jackie,HARDIN,JackieHA98@usf.edu,Senior,geosciences,3.15625
+1653159,Caron,DUNLAP,CaronDU75@usf.edu,Senior,atmospheric sciences and meteorology,3.09375
+7767782,Jayson,LE,JaysonLE94@usf.edu,Senior,advertising and public relations,3.34375
+6277766,Leane,VAUGHN,LeaneVA79@usf.edu,Junior,animal sciences,2.875
+1411844,Radha,WALKER,RadhaWA12@usf.edu,Freshman,neuroscience,3.375
+3347712,Lyndsey,CRUZ,LyndseyCR53@usf.edu,Senior,ecology,2.75
+1122241,Stewart,HUMPHREY,StewartHU29@usf.edu,Sophmore,physical sciences,2.75
+6852661,Collene,COHEN,ColleneCO08@usf.edu,Sophmore,metallurgical engineering,2.9375
+8122248,Vicki,PETERS,VickiPE14@usf.edu,Junior,neuroscience,3.25
+4513933,Zaqia,ERICKSON,ZaqiaER31@usf.edu,Junior,school student counseling,2.875
+8387935,Beverly,MCCALL,BeverlyMC69@usf.edu,Freshman,atmospheric sciences and meteorology,2.75
+8835998,Saaira,SEXTON,SaairaSE42@usf.edu,Sophmore,composition and rhetoric,3.0625
+8141243,Giles,ATKINSON,GilesAT43@usf.edu,Junior,computer and information systems,3
+2592616,Alayna,FARLEY,AlaynaFA58@usf.edu,Junior,miscellaneous social sciences,3.08333
+5212535,Leanna,CRAWFORD,LeannaCR44@usf.edu,Sophmore,visual and performing arts,2.8125
+6556514,Ann-Louise,MATHEWS,Ann-LouiseMA89@usf.edu,Junior,communication technologies,2.875
+1251171,Emilio,HARMON,EmilioHA18@usf.edu,Senior,social psychology,3.125
+1367993,Suilven,HORNE,SuilvenHO40@usf.edu,Sophmore,civil engineering,2.6875
+9556614,Daniela,PRATT,DanielaPR24@usf.edu,Freshman,intercultural and international studies,2.875
+4883913,Oritseju,MORAN,OritsejuMO28@usf.edu,Senior,early childhood education,2.9375
+5523477,Johrene,OWENS,JohreneOW91@usf.edu,Senior,cognitive science and biopsychology,3.0625
+8425321,Yesmin,WHITAKER,YesminWH79@usf.edu,Sophmore,miscellaneous education,3.0625
+1527761,Kelly-Ann,TURNER,Kelly-AnnTU03@usf.edu,Junior,united states history,3.33333
+1436529,Jay,DAVIES,JayDA48@usf.edu,Senior,intercultural and international studies,2.90625
+8167694,Moray,DOUGHERTY,MorayDO59@usf.edu,Junior,mining and mineral engineering,3.04167
+4121119,Joanna,MCINTOSH,JoannaMC21@usf.edu,Junior,mass media,3.04167
+4492332,Ailey,MORALES,AileyMO42@usf.edu,Junior,social science or history teacher education,2.83333
+4569775,Garrie,VELAZQUEZ,GarrieVE97@usf.edu,Freshman,computer engineering,3
+7121891,Melville,BIRD,MelvilleBI22@usf.edu,Sophmore,animal sciences,3.5
+4514991,Mona,SAVAGE,MonaSA58@usf.edu,Freshman,mathematics,2.875
+7514645,Stacy,LIN,StacyLI23@usf.edu,Freshman,petroleum engineering,3.125
+6135833,Shabir,BAKER,ShabirBA59@usf.edu,Sophmore,forestry,3.125
+4499331,Asha,WELCH,AshaWE41@usf.edu,Junior,nursing,2.91667
+5552113,Elizabeth,STEPHENS,ElizabethST92@usf.edu,Junior,botany,3.04167
+8626312,Navdeep,GLASS,NavdeepGL71@usf.edu,Junior,mechanical engineering,3
+7761166,Chanelle,DAVENPORT,ChanelleDA83@usf.edu,Senior,nutrition sciences,2.875
+6165646,Bram,WILKINS,BramWI84@usf.edu,Junior,miscellaneous agriculture,3
+1984789,Margie,FARRELL,MargieFA43@usf.edu,Sophmore,general business,2.375
+7137111,Justine,LAMB,JustineLA61@usf.edu,Senior,business management and administration,3.21875
+5596651,Lara,BURKE,LaraBU34@usf.edu,Junior,finance,2.875
+1876911,Minush,YATES,MinushYA76@usf.edu,Sophmore,drama and theater arts,3
+2852131,Ruan,OLSEN,RuanOL07@usf.edu,Freshman,general education,3.125
+5997555,Colby,SAMPSON,ColbySA33@usf.edu,Freshman,music,2.75
+6279919,Debral,FLYNN,DebralFL63@usf.edu,Sophmore,multi/interdisciplinary studies,2.5
+1531356,Syma,BIRD,SymaBI74@usf.edu,Sophmore,metallurgical engineering,3.3125
+7765392,Lezleyann,MANNING,LezleyannMA35@usf.edu,Senior,french german latin and other common foreign language studies,2.84375
+9865526,Zaid,GRIFFITH,ZaidGR28@usf.edu,Junior,finance,2.66667
+9822579,Antoinette,COLLIER,AntoinetteCO79@usf.edu,Freshman,computer programming and data processing,3.125
+8269486,Mellisa,PEARSON,MellisaPE74@usf.edu,Sophmore,commercial art and graphic design,2.9375
+3427789,Jorgen,FRY,JorgenFR79@usf.edu,Junior,visual and performing arts,2.875
+4783554,Lewis,PAYNE,LewisPA53@usf.edu,Sophmore,pharmacy pharmaceutical sciences and administration,2.6875
+7957781,Morna,BARKER,MornaBA43@usf.edu,Freshman,nursing,3
+1692112,Nyssa,MAY,NyssaMA59@usf.edu,Sophmore,environmental science,3
+9945631,Paulo,COOK,PauloCO46@usf.edu,Sophmore,zoology,2.6875
+5559637,Soloman,TAYLOR,SolomanTA79@usf.edu,Senior,studio arts,2.71875
+4696226,Imran,PHAM,ImranPH11@usf.edu,Freshman,advertising and public relations,3.125
+8417628,Hailey,WATKINS,HaileyWA69@usf.edu,Junior,chemical engineering,2.91667
+1912567,Evan,NOBLE,EvanNO28@usf.edu,Sophmore,pharmacy pharmaceutical sciences and administration,3.125
+3587512,Nafeesa,MARSHALL,NafeesaMA74@usf.edu,Sophmore,military technologies,3
+6344423,Aniel,ROBINSON,AnielRO38@usf.edu,Junior,engineering technologies,3.41667
+5745199,Asia,SOSA,AsiaSO03@usf.edu,Junior,visual and performing arts,3.20833
+1856843,Zema,KENNEDY,ZemaKE00@usf.edu,Freshman,counseling psychology,2.75
+3848847,Kimberly,MCLAUGHLIN,KimberlyMC41@usf.edu,Sophmore,liberal arts,3.25
+1155476,Arena,GARRISON,ArenaGA74@usf.edu,Freshman,marketing and marketing research,3.125
+7397625,Julianne,DONOVAN,JulianneDO31@usf.edu,Sophmore,n/a (less than bachelor's degree),3
+1452996,Samir,BURGESS,SamirBU19@usf.edu,Freshman,materials engineering and materials science,3.125
+3188958,Konrad,JENNINGS,KonradJE81@usf.edu,Freshman,geosciences,2.75
+3291376,Monique,LAMBERT,MoniqueLA09@usf.edu,Freshman,music,3.5
+6731727,Lee-William,BURNETT,Lee-WilliamBU66@usf.edu,Sophmore,industrial and manufacturing engineering,3.125
+4659837,Annette,VALENZUELA,AnnetteVA89@usf.edu,Freshman,philosophy and religious studies,2.875
+8782134,Nicola,RICHARDSON,NicolaRI31@usf.edu,Freshman,chemistry,2.75
+8839818,Narinder,FRY,NarinderFR34@usf.edu,Sophmore,finance,2.9375
+9467628,Keir,DAVILA,KeirDA13@usf.edu,Freshman,liberal arts,2.625
+2476688,Bruxe,SHEPARD,BruxeSH96@usf.edu,Freshman,cosmetology services and culinary arts,3.125
+2258298,Jennifer,SHORT,JenniferSH25@usf.edu,Junior,liberal arts,2.91667
+3252281,Linzy,KHAN,LinzyKH24@usf.edu,Senior,cosmetology services and culinary arts,2.9375
+7198923,Emily,LOWERY,EmilyLO05@usf.edu,Freshman,agricultural economics,2.25
+1916567,Sheila,DENNIS,SheilaDE87@usf.edu,Freshman,food science,3
+8334791,Emilya,POTTER,EmilyaPO45@usf.edu,Sophmore,miscellaneous business & medical administration,3.4375
+7342274,Katharine,MENDOZA,KatharineME06@usf.edu,Sophmore,marketing and marketing research,3.25
+6671184,Aileen,DAVENPORT,AileenDA17@usf.edu,Senior,school student counseling,2.90625
+4571569,Carlo,VALENCIA,CarloVA48@usf.edu,Senior,teacher education: multiple levels,3.1875
+5651741,Randall,EDWARDS,RandallED50@usf.edu,Junior,biological engineering,3.04167
+2769992,Sara-Jane,ESTES,Sara-JaneES05@usf.edu,Junior,miscellaneous social sciences,2.875
+7716152,Ailie,RANDOLPH,AilieRA83@usf.edu,Freshman,mining and mineral engineering,2.875
+5693869,Tawfik,ROACH,TawfikRO45@usf.edu,Sophmore,language and drama education,3.3125
+2156327,Tsui,BRADSHAW,TsuiBR76@usf.edu,Freshman,miscellaneous agriculture,2.625
+8594251,Ester,CARROLL,EsterCA81@usf.edu,Junior,visual and performing arts,3.16667
+2811285,Renee,CANTRELL,ReneeCA47@usf.edu,Sophmore,communication disorders sciences and services,3.0625
+6598223,Kris,BRYAN,KrisBR43@usf.edu,Sophmore,political science and government,3.3125
+3782851,Ramon,DUFFY,RamonDU17@usf.edu,Junior,genetics,3.25
+9946787,Jerry,WARE,JerryWA81@usf.edu,Junior,animal sciences,2.95833
+1918412,Rajinder,LEWIS,RajinderLE41@usf.edu,Junior,multi-disciplinary or general science,2.58333
+3716993,Waheeda,WILLIAMSON,WaheedaWI16@usf.edu,Senior,accounting,3.125
+5349858,Kristeen,CONLEY,KristeenCO12@usf.edu,Freshman,cognitive science and biopsychology,2.875
+3927884,Fionnuala,FRANKLIN,FionnualaFR32@usf.edu,Junior,microbiology,3.25
+3686137,Lorayne,GILMORE,LorayneGI08@usf.edu,Sophmore,anthropology and archeology,2.875
+6481735,Virginia,HUGHES,VirginiaHU00@usf.edu,Junior,area ethnic and civilization studies,2.79167
+1148986,Sarah,COHEN,SarahCO40@usf.edu,Junior,general business,3.04167
+4936813,Clara,PADILLA,ClaraPA93@usf.edu,Sophmore,health and medical preparatory programs,3.3125
+8843528,Ming-Chen,ABBOTT,Ming-ChenAB05@usf.edu,Senior,miscellaneous health medical professions,3.0625
+5419837,Iona-Jane,ARROYO,Iona-JaneAR17@usf.edu,Freshman,united states history,2.375
+9629558,Malina,WILLIS,MalinaWI50@usf.edu,Senior,botany,3.125
+9757735,Randa,ROY,RandaRO09@usf.edu,Sophmore,secondary teacher education,3.25
+6796987,Lynsey-Anne,EVERETT,Lynsey-AnneEV21@usf.edu,Junior,area ethnic and civilization studies,3.25
+5889793,Rishi,POTTS,RishiPO50@usf.edu,Senior,naval architecture and marine engineering,2.9375
+4686155,Mana,BONILLA,ManaBO78@usf.edu,Sophmore,agriculture production and management,2.875
+5381631,Rianna,DAVENPORT,RiannaDA93@usf.edu,Freshman,criminal justice and fire protection,2.875
+5449938,Uzma,AVERY,UzmaAV78@usf.edu,Senior,civil engineering,3.09375
+6681277,Tehmeena,POWELL,TehmeenaPO50@usf.edu,Senior,n/a (less than bachelor's degree),2.84375
+8777139,Roger,COLEMAN,RogerCO75@usf.edu,Senior,metallurgical engineering,2.9375
+8872175,Lorna,HARMON,LornaHA59@usf.edu,Junior,electrical,2.91667
+8368679,Karma,DONOVAN,KarmaDO76@usf.edu,Senior,educational administration and supervision,3.0625
+5675258,Niresh,HERNANDEZ,NireshHE05@usf.edu,Freshman,biological engineering,3.125
+4645214,Terri,BRYAN,TerriBR14@usf.edu,Senior,pharmacology,2.71875
+6775432,Sherryl,SELLERS,SherrylSE53@usf.edu,Sophmore,aerospace engineering,3.125
+8671856,John-Carlo,HARRINGTON,John-CarloHA25@usf.edu,Junior,health and medical administrative services,3.20833
+7468894,Melane,STEVENSON,MelaneST87@usf.edu,Junior,hospitality management,2.91667
+4146182,Dolina,MCKNIGHT,DolinaMC54@usf.edu,Junior,molecular biology,3.125
+9363178,Ezio,KEMP,EzioKE01@usf.edu,Junior,ecology,2.95833
+2459836,Lorna-Jane,WASHINGTON,Lorna-JaneWA29@usf.edu,Freshman,other foreign languages,3.125
+6833728,Kulvinder,MEADOWS,KulvinderME43@usf.edu,Senior,architecture,2.90625
+1917692,Blair,FLYNN,BlairFL88@usf.edu,Sophmore,natural resources management,3
+3434662,Klaire,BROOKS,KlaireBR81@usf.edu,Sophmore,miscellaneous health medical professions,3.1875
+7278336,Damione,GIBSON,DamioneGI00@usf.edu,Junior,electrical,3
+2296435,Ainee,SERRANO,AineeSE48@usf.edu,Freshman,journalism,2.625
+6253426,Larain,WOODS,LarainWO08@usf.edu,Junior,botany,3.16667
+1996585,Tracey,OLIVER,TraceyOL90@usf.edu,Senior,industrial and manufacturing engineering,2.90625
+1969748,Saifar,CLAY,SaifarCL36@usf.edu,Junior,advertising and public relations,2.91667
+3573293,Jodi,COBB,JodiCO71@usf.edu,Senior,social work,2.875
+9939794,Cheryl,FISHER,CherylFI13@usf.edu,Senior,agricultural economics,3.03125
+8856917,Helena,TODD,HelenaTO54@usf.edu,Junior,fine arts,3
+9787152,Roseleen,HAMMOND,RoseleenHA98@usf.edu,Junior,fine arts,3.125
+1671697,Guy,LI,GuyLI24@usf.edu,Freshman,multi/interdisciplinary studies,3
+5184689,Vickie,STONE,VickieST55@usf.edu,Junior,physical fitness parks recreation and leisure,2.91667
+8178771,Batool,POWERS,BatoolPO29@usf.edu,Junior,international business,3.33333
+8521383,Brieghd,KIRBY,BrieghdKI92@usf.edu,Senior,physical sciences,2.875
+7976939,Arvind,ROY,ArvindRO16@usf.edu,Senior,linguistics and comparative language and literature,3.1875
+7829353,Dimitri,WOODARD,DimitriWO40@usf.edu,Sophmore,materials engineering and materials science,3.0625
+9569347,Sercha,NEWTON,SerchaNE77@usf.edu,Junior,elementary education,2.91667
+3897759,Sunniva,STOUT,SunnivaST94@usf.edu,Senior,construction services,2.96875
+7529261,Arnout,WEBSTER,ArnoutWE18@usf.edu,Sophmore,zoology,3.0625
+7187216,Suzan,TAPIA,SuzanTA10@usf.edu,Senior,social work,2.875
+7866847,Leeann,KNIGHT,LeeannKN70@usf.edu,Junior,miscellaneous agriculture,2.875
+3826318,Lea-Anne,MULLEN,Lea-AnneMU61@usf.edu,Freshman,medical assisting services,3.25
+9684446,Soenaid,BATES,SoenaidBA91@usf.edu,Sophmore,interdisciplinary social sciences,3
+9322443,Laurissa,SINGLETON,LaurissaSI37@usf.edu,Senior,aerospace engineering,2.96875
+7668794,Elayne,FINLEY,ElayneFI08@usf.edu,Senior,aerospace engineering,3.09375
+7513116,Chun,STOKES,ChunST41@usf.edu,Sophmore,economics,3.3125
+5677682,Ased,VILLA,AsedVI29@usf.edu,Freshman,general agriculture,2.625
+3246446,Correen,CUNNINGHAM,CorreenCU95@usf.edu,Freshman,art history and criticism,3
+3771794,Saara,GARRISON,SaaraGA95@usf.edu,Senior,general engineering,2.9375
+9429516,Karen,JARVIS,KarenJA63@usf.edu,Sophmore,other foreign languages,3.125
+6219115,Che,BRIGGS,CheBR38@usf.edu,Senior,miscellaneous biology,2.75
+1511357,Yosef,OWENS,YosefOW28@usf.edu,Junior,biomedical engineering,3.125
+1912891,Eliman,COMBS,ElimanCO73@usf.edu,Junior,transportation sciences and technologies,3
+7262389,Atif,PRUITT,AtifPR91@usf.edu,Junior,microbiology,2.95833
+9496398,Ruby,LLOYD,RubyLL09@usf.edu,Sophmore,genetics,2.875
+1961847,Arja,STAFFORD,ArjaST46@usf.edu,Senior,physiology,3.15625
+8515672,Catriona,BISHOP,CatrionaBI37@usf.edu,Freshman,english language and literature,3.25
+7823631,Fu,MONTOYA,FuMO59@usf.edu,Sophmore,medical technologies technicians,3.5
+5362797,Brendalyn,KLEIN,BrendalynKL84@usf.edu,Sophmore,teacher education: multiple levels,3.3125
+3312761,Tobias,BRANCH,TobiasBR73@usf.edu,Freshman,business management and administration,3.125
+9863967,Keiran,HERRING,KeiranHE15@usf.edu,Freshman,cognitive science and biopsychology,3.125
+4397945,Donna,FROST,DonnaFR49@usf.edu,Freshman,sociology,2.25
+5541278,Neil,BEAN,NeilBE62@usf.edu,Junior,general social sciences,3.16667
+1287761,Ann-Margaret,SIMS,Ann-MargaretSI79@usf.edu,Sophmore,construction services,3
+3299212,Kelly,RYAN,KellyRY64@usf.edu,Freshman,petroleum engineering,2.5
+4148252,Carmen,ROY,CarmenRO79@usf.edu,Senior,health and medical administrative services,2.90625
+5976115,Maura,VANG,MauraVA84@usf.edu,Freshman,nuclear,2.75
+8552267,Albert,WISE,AlbertWI95@usf.edu,Senior,mechanical engineering,3.0625
+7848551,Duncan,HOLLAND,DuncanHO02@usf.edu,Freshman,human resources and personnel management,2.5
+9229685,Chung,HENDERSON,ChungHE81@usf.edu,Junior,nuclear engineering,3
+1366796,Stafford,HUBER,StaffordHU37@usf.edu,Sophmore,nutrition sciences,3.0625
+3796854,Marita,RICE,MaritaRI40@usf.edu,Junior,operations logistics and e-commerce,3.16667
+2752122,Marium,HARRELL,MariumHA42@usf.edu,Sophmore,health and medical preparatory programs,2.9375
+5259132,Corren,CHRISTENSEN,CorrenCH77@usf.edu,Junior,health and medical preparatory programs,3.08333
+7468924,Wallace,WATERS,WallaceWA72@usf.edu,Sophmore,health and medical preparatory programs,3.25
+3127464,Yassar-Ud-Din,MCKAY,Yassar-Ud-DinMC10@usf.edu,Senior,teacher education: multiple levels,2.84375
+1284625,Abdal,ROBLES,AbdalRO74@usf.edu,Junior,counseling psychology,3.04167
+7599884,Mumtaz,DAVENPORT,MumtazDA25@usf.edu,Senior,multi-disciplinary or general science,2.75
+7468237,Ritchard,HAAS,RitchardHA95@usf.edu,Senior,materials engineering and materials science,2.8125
+2769628,Tiffany,VAZQUEZ,TiffanyVA02@usf.edu,Senior,environmental science,3.09375
+4811347,Alice-Anne,CHARLES,Alice-AnneCH54@usf.edu,Sophmore,communication technologies,2.9375
+9289387,Rehana,CLINE,RehanaCL50@usf.edu,Sophmore,geological and geophysical engineering,2.875
+4786413,Michael-John,HURLEY,Michael-JohnHU03@usf.edu,Freshman,military technologies,2.75
+9186556,Alick,DRAKE,AlickDR78@usf.edu,Freshman,general medical and health services,3.125
+2477258,Shoaib,RANDOLPH,ShoaibRA64@usf.edu,Sophmore,civil engineering,2.9375
+2822887,Bronwen,HARRELL,BronwenHA07@usf.edu,Senior,architectural engineering,3.125
+3574661,Freyja,CRUZ,FreyjaCR82@usf.edu,Freshman,animal sciences,3
+4861335,Jarvis,CARR,JarvisCA85@usf.edu,Junior,general engineering,3.08333
+2266835,Man,ESPINOZA,ManES54@usf.edu,Senior,area ethnic and civilization studies,2.875
+8767923,Lucy,BALDWIN,LucyBA69@usf.edu,Freshman,marketing and marketing research,2.75
+5458443,Ester,DYER,EsterDY06@usf.edu,Junior,physical sciences,3.125
+5242779,Ashton,GRANT,AshtonGR03@usf.edu,Sophmore,statistics and decision science,2.8125
+9695646,Mortimer,SIMON,MortimerSI90@usf.edu,Junior,sociology,3.16667
+6156913,Collete,RILEY,ColleteRI66@usf.edu,Senior,cognitive science and biopsychology,2.90625
+6423527,Casey,MCCONNELL,CaseyMC75@usf.edu,Freshman,materials engineering and materials science,2.5
+8583214,Annabella,REID,AnnabellaRE70@usf.edu,Sophmore,statistics and decision science,2.875
+4992288,Boyd,HARVEY,BoydHA13@usf.edu,Freshman,aerospace engineering,3.5
+6324581,Mehbish,WISE,MehbishWI64@usf.edu,Junior,commercial art and graphic design,2.75
+9749982,Thorfinn,MOSES,ThorfinnMO24@usf.edu,Freshman,social psychology,3.125
+1774121,Fatemah,ANDRADE,FatemahAN68@usf.edu,Senior,mass media,2.9375
+3841653,Amani,JACOBSON,AmaniJA75@usf.edu,Senior,miscellaneous education,3.15625
+4773991,Euain,FLOWERS,EuainFL98@usf.edu,Junior,court reporting,3.08333
+3527281,Lyndsay,AGUILAR,LyndsayAG59@usf.edu,Sophmore,community and public health,3.1875
+1428544,Kelda,LEWIS,KeldaLE65@usf.edu,Freshman,nuclear,2.875
+6333196,Joleene,DANIEL,JoleeneDA37@usf.edu,Senior,petroleum engineering,3.125
+3148625,Luan,MOSLEY,LuanMO88@usf.edu,Sophmore,transportation sciences and technologies,3.3125
+6918433,Tracey,CHANG,TraceyCH57@usf.edu,Sophmore,area ethnic and civilization studies,2.9375
+2974621,Yinka,CALHOUN,YinkaCA47@usf.edu,Junior,visual and performing arts,2.70833
+2879671,Angela,SAMPSON,AngelaSA82@usf.edu,Sophmore,industrial and organizational psychology,3.25
+5156941,Amie,WHITNEY,AmieWH95@usf.edu,Senior,cognitive science and biopsychology,3.15625
+5468858,Chukwuemeka,GEORGE,ChukwuemekaGE01@usf.edu,Junior,hospitality management,2.875
+3276926,Giulietta,BLACK,GiuliettaBL29@usf.edu,Junior,computer and information systems,2.95833
+5961633,Blaire,POWERS,BlairePO31@usf.edu,Freshman,hospitality management,2.5
+7343767,Hindelee,MARSHALL,HindeleeMA91@usf.edu,Sophmore,international relations,2.625
+7643566,Shizad,MONTES,ShizadMO26@usf.edu,Freshman,miscellaneous biology,3.125
+3955815,Noreena,CHURCH,NoreenaCH91@usf.edu,Senior,military technologies,2.96875
+6187473,Shah,WOLFE,ShahWO52@usf.edu,Junior,advertising and public relations,3
+8178869,Ayda,EVANS,AydaEV16@usf.edu,Senior,area ethnic and civilization studies,3.09375
+5792933,Kirsten,TATE,KirstenTA62@usf.edu,Junior,computer networking and telecommunications,2.875
+3727363,Daiman,CHASE,DaimanCH91@usf.edu,Freshman,computer and information systems,3.5
+6833989,Cornelia,GARRETT,CorneliaGA75@usf.edu,Junior,language and drama education,2.79167
+2786542,Jimy,STRONG,JimyST30@usf.edu,Sophmore,special needs education,3
+1541237,Dyon,FRIEDMAN,DyonFR65@usf.edu,Senior,film video and photographic arts,2.9375
+1938142,Vikki,COHEN,VikkiCO46@usf.edu,Sophmore,general social sciences,2.5625
+2534226,Kaat,RICE,KaatRI99@usf.edu,Freshman,computer programming and data processing,3
+3225284,Claudette,LUTZ,ClaudetteLU63@usf.edu,Sophmore,miscellaneous fine arts,3.25
+2631473,Kendra,GILMORE,KendraGI63@usf.edu,Senior,educational administration and supervision,2.96875
+8976419,Chris,BOWERS,ChrisBO24@usf.edu,Junior,miscellaneous agriculture,3.125
+9391274,Lynda,HENSLEY,LyndaHE56@usf.edu,Junior,statistics and decision science,2.875
+7886377,Marelle,HANCOCK,MarelleHA53@usf.edu,Freshman,n/a (less than bachelor's degree),3.125
+6981513,Elijah,BARRERA,ElijahBA60@usf.edu,Sophmore,miscellaneous engineering technologies,2.6875
+3221146,Kirsti,RUSH,KirstiRU72@usf.edu,Freshman,fine arts,3.25
+6935654,Kirstyn,MONROE,KirstynMO41@usf.edu,Sophmore,secondary teacher education,3.1875
+9376586,Sheenagh,CHRISTENSEN,SheenaghCH77@usf.edu,Sophmore,elementary education,2.6875
+6991144,Jane,MANNING,JaneMA56@usf.edu,Senior,elementary education,2.90625
+1257685,Mharie,MULLINS,MharieMU74@usf.edu,Freshman,family and consumer sciences,3
+3816385,Sharif,RAMIREZ,SharifRA03@usf.edu,Sophmore,natural resources management,3.4375
+7826644,Leela,PATTON,LeelaPA71@usf.edu,Sophmore,secondary teacher education,3.125
+2482741,Lester,HALEY,LesterHA42@usf.edu,Sophmore,management information systems and statistics,3.125
+7467234,Janene,ANDREWS,JaneneAN00@usf.edu,Sophmore,oceanography,3
+2211155,Daren,SANTOS,DarenSA01@usf.edu,Sophmore,mathematics,3.125
+8525458,Ho,BAXTER,HoBA08@usf.edu,Freshman,soil science,3
+8621177,Russell,EVERETT,RussellEV52@usf.edu,Senior,physical fitness parks recreation and leisure,2.84375
+2922936,Jodee,HERRING,JodeeHE89@usf.edu,Junior,multi-disciplinary or general science,2.70833
+9455563,Corrin,PARSONS,CorrinPA51@usf.edu,Sophmore,operations logistics and e-commerce,2.9375
+8396536,Patrica,OWENS,PatricaOW09@usf.edu,Freshman,business economics,2.875
+1184257,Marjory,WIGGINS,MarjoryWI79@usf.edu,Sophmore,theology and religious vocations,3
+7445739,Coralie,STOKES,CoralieST30@usf.edu,Freshman,marketing and marketing research,2.875
+3641612,Roman,WARE,RomanWA08@usf.edu,Junior,business management and administration,2.95833
+2391114,Luciano,BRYANT,LucianoBR97@usf.edu,Freshman,physical fitness parks recreation and leisure,3
+6337951,Tearaj,MONTOYA,TearajMO32@usf.edu,Senior,mathematics teacher education,2.875
+2933831,Sherrie,BROCK,SherrieBR18@usf.edu,Freshman,petroleum engineering,3.625
+5132198,Aleta,RICHARD,AletaRI50@usf.edu,Sophmore,pharmacology,2.9375
+6491245,Leeanna,BURNS,LeeannaBU78@usf.edu,Senior,genetics,3.46875
+8555998,Gladys,WONG,GladysWO04@usf.edu,Freshman,forestry,2.875
+5654353,Alyson,YANG,AlysonYA53@usf.edu,Sophmore,community and public health,3.0625
+6662326,Katey,OWEN,KateyOW25@usf.edu,Senior,educational administration and supervision,2.8125
+4578153,Alexandra,VILLARREAL,AlexandraVI49@usf.edu,Sophmore,linguistics and comparative language and literature,2.875
+5613699,Andrina,SCHAEFER,AndrinaSC81@usf.edu,Senior,business management and administration,2.875
+2694951,Daanish,HORNE,DaanishHO89@usf.edu,Senior,environmental science,3.0625
+6977892,Eoghan,CAMERON,EoghanCA44@usf.edu,Freshman,management information systems and statistics,3.125
+8985929,Elinore,HANEY,ElinoreHA07@usf.edu,Sophmore,biology,3.3125
+1248133,Michele,NORMAN,MicheleNO20@usf.edu,Freshman,environmental science,3.375
+2836852,Sumreen,NORTON,SumreenNO34@usf.edu,Senior,criminal justice and fire protection,2.84375
+9768541,Gael,BARRON,GaelBA30@usf.edu,Sophmore,science and computer teacher education,3
+8324918,Gurpage,SHEPPARD,GurpageSH93@usf.edu,Sophmore,architecture,3.125
+8411948,Leyton,STUART,LeytonST26@usf.edu,Sophmore,health and medical preparatory programs,3
+1484343,Chevonne,GREENE,ChevonneGR84@usf.edu,Junior,philosophy and religious studies,3.08333
+7589262,Chloe-Maryse,COLEMAN,Chloe-MaryseCO55@usf.edu,Junior,special needs education,2.66667
+9862339,Johnathan,ROSALES,JohnathanRO75@usf.edu,Junior,early childhood education,3.04167
+3483697,Rana,SIMPSON,RanaSI44@usf.edu,Sophmore,health and medical preparatory programs,3
+9493835,Lynsie,CISNEROS,LynsieCI28@usf.edu,Freshman,chemistry,2.25
+9753484,Loraine,WELCH,LoraineWE74@usf.edu,Freshman,aerospace engineering,2.625
+1732518,Debirah-Jane,REYNOLDS,Debirah-JaneRE57@usf.edu,Freshman,anthropology and archeology,2.25
+5827358,Christian,BUCKLEY,ChristianBU59@usf.edu,Freshman,mathematics,2.375
+7257153,Morag,PARRISH,MoragPA84@usf.edu,Senior,sociology,2.34375
+6214817,Adrienne,KELLER,AdrienneKE75@usf.edu,Senior,humanities,2.5625
+9223813,Ginanne,CHUNG,GinanneCH81@usf.edu,Sophmore,psychology,2.625
+2512522,Rachna,TAYLOR,RachnaTA79@usf.edu,Freshman,public administration,2.25
+1546964,Phil,PITTS,PhilPI14@usf.edu,Senior,communications,2.46875
+1943896,Samira,CHANG,SamiraCH59@usf.edu,Freshman,united states history,2.625
+9515249,Catherine,CLINE,CatherineCL45@usf.edu,Sophmore,petroleum engineering,2.5
+2426137,Sakinah,LANDRY,SakinahLA28@usf.edu,Junior,miscellaneous agriculture,2.41667
+7357617,Carron,BRIGHT,CarronBR13@usf.edu,Senior,finance,2.53125
+9125264,Shireen,MCCONNELL,ShireenMC10@usf.edu,Senior,multi/interdisciplinary studies,2.59375
+9398359,Nisar,SIMS,NisarSI93@usf.edu,Sophmore,geography,2.5
+7236145,Eze,MCMILLAN,EzeMC32@usf.edu,Sophmore,mathematics and computer science,2.6875
+5632118,Alan,BLACKWELL,AlanBL65@usf.edu,Freshman,elementary education,2.25
+2149229,Ben,BAILEY,BenBA51@usf.edu,Junior,engineering and industrial management,2.41667
+6561268,Kelly,FLOYD,KellyFL93@usf.edu,Senior,social psychology,2.5
+4648656,Anne,SIMON,AnneSI95@usf.edu,Senior,liberal arts,2.53125
+8362248,Muir,COLON,MuirCO65@usf.edu,Sophmore,geosciences,2.5625
+9731424,Kateren,SANTOS,KaterenSA73@usf.edu,Freshman,operations logistics and e-commerce,2.75
+5661152,Juzer,BOYD,JuzerBO95@usf.edu,Sophmore,art history and criticism,2.5625
+3981579,Kristin-Anne,CHAN,Kristin-AnneCH02@usf.edu,Sophmore,early childhood education,2.5625
+3897573,Clarke,MORALES,ClarkeMO63@usf.edu,Freshman,chemistry,2.5
+2861217,Aazma,CHAPMAN,AazmaCH53@usf.edu,Senior,genetics,2.4375
+1953988,Candice,GORDON,CandiceGO69@usf.edu,Freshman,english language and literature,2.5
+3541623,Anne,HOWELL,AnneHO15@usf.edu,Sophmore,computer and information systems,2.375
+9165814,Leeah,HARTMAN,LeeahHA76@usf.edu,Senior,finance,2.46875
+9198463,Gabrielle,BOLTON,GabrielleBO12@usf.edu,Senior,biomedical engineering,2.53125
+7597862,Nyshma,ZAMORA,NyshmaZA04@usf.edu,Freshman,industrial production technologies,2.625
+8534418,Bethanie,DAVID,BethanieDA83@usf.edu,Sophmore,pre-law and legal studies,2.5625
+1893512,Gianpaolo,COX,GianpaoloCO01@usf.edu,Junior,microbiology,2.375
+2123917,Dale,ARCHER,DaleAR94@usf.edu,Sophmore,botany,2.4375
+4587733,Rosien,DUNN,RosienDU19@usf.edu,Junior,soil science,2.375
+5966493,Jimmy,WATKINS,JimmyWA56@usf.edu,Junior,medical assisting services,2.33333
+6174865,Lauren,HESTER,LaurenHE24@usf.edu,Freshman,actuarial science,2.25
+7431343,Lorinda,CLARK,LorindaCL45@usf.edu,Senior,miscellaneous business & medical administration,2.53125
+9847821,Kerri,SILVA,KerriSI85@usf.edu,Junior,political science and government,2.45833
+8288494,Carryl,COWAN,CarrylCO18@usf.edu,Sophmore,electrical engineering technology,2.375
+1535956,Aleena,MCKNIGHT,AleenaMC84@usf.edu,Senior,geology and earth science,2.65625
+4112897,Guglielmo,GIBSON,GuglielmoGI12@usf.edu,Sophmore,human resources and personnel management,2.4375
+1572593,Keris,MANN,KerisMA10@usf.edu,Sophmore,mining and mineral engineering,2.5
+6484628,Clare,GAINES,ClareGA99@usf.edu,Sophmore,history,2.5
+3862566,Danella,MAHONEY,DanellaMA28@usf.edu,Freshman,miscellaneous biology,2.25
+2836398,Manjeet,BOYER,ManjeetBO37@usf.edu,Freshman,naval architecture and marine engineering,2.375
+3511363,Karron,CARLSON,KarronCA63@usf.edu,Sophmore,physical and health education teaching,2.5625
+8494385,Manus,SPARKS,ManusSP37@usf.edu,Junior,economics,2.5
+6266486,Lavindia,STEPHENSON,LavindiaST97@usf.edu,Senior,political science and government,2.5625
+1439166,Mairi,STRICKLAND,MairiST11@usf.edu,Sophmore,criminal justice and fire protection,2.625
+3417547,Yan,ROSALES,YanRO44@usf.edu,Senior,human services and community organization,2.40625
+7952683,Debra,LANG,DebraLA86@usf.edu,Freshman,english language and literature,2.5
+2976729,Nickola,GOODMAN,NickolaGO73@usf.edu,Senior,geology and earth science,2.5
+4451571,Ashlee,RAYMOND,AshleeRA63@usf.edu,Sophmore,accounting,2.5
+5479716,Gallie,MEYER,GallieME17@usf.edu,Sophmore,civil engineering,2.5
+2751165,Thor,DOUGLAS,ThorDO04@usf.edu,Freshman,physical and health education teaching,2.75
+5545816,Sian,MCCARTY,SianMC64@usf.edu,Junior,pharmacology,2.5
+4427514,Isla,WALL,IslaWA20@usf.edu,Senior,physical sciences,2.59375
+5994542,Reva-Merle,BURNETT,Reva-MerleBU73@usf.edu,Freshman,naval architecture and marine engineering,2.5
+4389369,Jessica,GROSS,JessicaGR17@usf.edu,Freshman,linguistics and comparative language and literature,2.375
+5512617,Ainslie,SCOTT,AinslieSC34@usf.edu,Senior,geology and earth science,2.53125
+1462632,Ruth,MCCULLOUGH,RuthMC68@usf.edu,Junior,art and music education,2.58333
+7348994,Marsha,LAM,MarshaLA95@usf.edu,Freshman,library science,2.375
+2498181,Esmee-Lien,TATE,Esmee-LienTA51@usf.edu,Sophmore,construction services,2.3125
+1614187,Kate,CARDENAS,KateCA93@usf.edu,Freshman,computer engineering,2.625
+4188711,Fanzisai,CHURCH,FanzisaiCH38@usf.edu,Sophmore,industrial and organizational psychology,2.4375
+9774927,Steve,CRAWFORD,SteveCR03@usf.edu,Junior,liberal arts,2.66667
+1765155,Sunita,MCDONALD,SunitaMC36@usf.edu,Freshman,political science and government,2.5
+2568624,Lauri,BERRY,LauriBE26@usf.edu,Sophmore,computer and information systems,2.4375
+3354289,Ann-Maree,GRANT,Ann-MareeGR64@usf.edu,Freshman,economics,2.625
+9731226,Janie,CONWAY,JanieCO89@usf.edu,Junior,mathematics and computer science,2.625
+3574671,Jennifer,DURHAM,JenniferDU87@usf.edu,Freshman,genetics,2.375
+2443628,Barry,WONG,BarryWO91@usf.edu,Sophmore,applied mathematics,2.5625
+3787519,Donnie,SAUNDERS,DonnieSA42@usf.edu,Freshman,theology and religious vocations,2.25
+5754256,Joel,LAWRENCE,JoelLA48@usf.edu,Junior,plant science and agronomy,2.41667
+9771328,Camille,RIGGS,CamilleRI77@usf.edu,Junior,aerospace engineering,2.41667
+1128544,Eoghann,BARTON,EoghannBA69@usf.edu,Freshman,family and consumer sciences,2.375
+2332925,Vaidya,GALLEGOS,VaidyaGA12@usf.edu,Freshman,human resources and personnel management,2.625
+9656873,Jenifer,NIELSEN,JeniferNI52@usf.edu,Junior,united states history,2.41667
+2881652,Abigail,REED,AbigailRE51@usf.edu,Junior,general medical and health services,2.625
+5892458,Linsey,BENJAMIN,LinseyBE86@usf.edu,Sophmore,ecology,2.3125
+9332885,Terese,FISCHER,TereseFI08@usf.edu,Sophmore,commercial art and graphic design,2.5625
+3153459,Una,CANTU,UnaCA67@usf.edu,Sophmore,engineering and industrial management,2.5625
+4419977,Ellisa,LITTLE,EllisaLI34@usf.edu,Senior,communications,2.375
+1423998,Kendrik,SERRANO,KendrikSE54@usf.edu,Junior,architecture,2.75
+4755976,Urafam,GOLDEN,UrafamGO77@usf.edu,Senior,ecology,2.4375
+1567146,Nanette,WALTERS,NanetteWA11@usf.edu,Senior,international relations,2.46875
+8412681,Isobel,BROWNING,IsobelBR13@usf.edu,Sophmore,architectural engineering,2.4375
+6587724,Kristopher,SHEPARD,KristopherSH10@usf.edu,Sophmore,educational administration and supervision,2.4375
+1758977,Talhah,WHITNEY,TalhahWH64@usf.edu,Junior,physiology,2.375
+8973181,Sergio,SUMMERS,SergioSU54@usf.edu,Freshman,environmental engineering,2.375
+7395812,Dominic,PARKS,DominicPA03@usf.edu,Sophmore,drama and theater arts,2.5625
+8453425,Jagdeep,ADKINS,JagdeepAD60@usf.edu,Sophmore,miscellaneous fine arts,2.8125
+2866568,Kate,MARSH,KateMA19@usf.edu,Junior,language and drama education,2.45833
+5216872,Savita,WALTON,SavitaWA08@usf.edu,Freshman,pharmacy pharmaceutical sciences and administration,2.75
+4693471,Sahdia,ANDERSON,SahdiaAN72@usf.edu,Freshman,general social sciences,2.5
+2742537,Nicolle,SAMPSON,NicolleSA79@usf.edu,Sophmore,general agriculture,2.375
+3916875,Naiomi-Jayne,GENTRY,Naiomi-JayneGE71@usf.edu,Junior,industrial and organizational psychology,2.20833
+5719251,Rupert,GARRETT,RupertGA77@usf.edu,Freshman,educational administration and supervision,2.375
+7699463,Georgina,STOKES,GeorginaST27@usf.edu,Freshman,naval architecture and marine engineering,2.375
+1621194,Pascoe,WEST,PascoeWE34@usf.edu,Senior,finance,2.5625
+1892156,Tristan,MATHIS,TristanMA76@usf.edu,Junior,journalism,2.375
+5794675,Klare,JENKINS,KlareJE38@usf.edu,Sophmore,general engineering,2.5
+6764215,Teresa-Jane,BARTON,Teresa-JaneBA08@usf.edu,Freshman,theology and religious vocations,2.375
+4847453,Lorene,MCCORMICK,LoreneMC89@usf.edu,Freshman,sociology,2.5
+8337467,Kerrin,FERNANDEZ,KerrinFE40@usf.edu,Sophmore,ecology,2.5
+9187347,Joel,HOOD,JoelHO60@usf.edu,Senior,anthropology and archeology,2.34375
+7595544,Maud,ROMAN,MaudRO71@usf.edu,Junior,food science,2.625
+3896418,Shabeena,FREEMAN,ShabeenaFR62@usf.edu,Senior,oceanography,2.40625
+9948215,Jeanie,WEST,JeanieWE54@usf.edu,Freshman,information sciences,2.625
+2131361,Marina,NOVAK,MarinaNO34@usf.edu,Freshman,library science,2.375
+4672482,Lena,DECKER,LenaDE08@usf.edu,Junior,theology and religious vocations,2.58333
+7878258,Poppy,FRANCO,PoppyFR92@usf.edu,Senior,physical fitness parks recreation and leisure,2.4375
+5151949,Manjit,BUSH,ManjitBU47@usf.edu,Sophmore,geology and earth science,2.4375
+9818262,Allistair,MCKEE,AllistairMC68@usf.edu,Sophmore,aerospace engineering,2.5625
+6398277,Mathieu,LEVY,MathieuLE36@usf.edu,Junior,miscellaneous social sciences,2.5
+1247582,Calam,CHRISTIAN,CalamCH91@usf.edu,Junior,environmental engineering,2.45833
+3467454,Aymee,COSTA,AymeeCO78@usf.edu,Senior,health and medical administrative services,2.53125
+3891736,Peter,BARAJAS,PeterBA90@usf.edu,Freshman,industrial and manufacturing engineering,2.625
+4356462,Denice,GREEN,DeniceGR55@usf.edu,Senior,food science,2.5
+2727226,Tania,REEVES,TaniaRE10@usf.edu,Junior,biochemical sciences,2.45833
+4392538,Sharraine,BURKE,SharraineBU45@usf.edu,Freshman,petroleum engineering,2.375
+3244122,Brodie,DELACRUZ,BrodieDE33@usf.edu,Freshman,zoology,2.5
+9754664,Corrie,CHASE,CorrieCH69@usf.edu,Junior,educational psychology,2.41667
+8966455,Aisha,ODOM,AishaOD97@usf.edu,Junior,psychology,2.375
+2769123,Sharn,DOYLE,SharnDO86@usf.edu,Freshman,industrial production technologies,2.25
+1194352,Chinonyerem,TERRY,ChinonyeremTE50@usf.edu,Junior,n/a (less than bachelor's degree),2.625
+9784672,Morris,VANG,MorrisVA54@usf.edu,Senior,civil engineering,2.65625
+5785739,Rosanna,MATHEWS,RosannaMA49@usf.edu,Sophmore,computer engineering,2.625
+9124265,Colette,ACOSTA,ColetteAC13@usf.edu,Senior,general education,2.59375
+4628249,Vikki-Ann,BLANCHARD,Vikki-AnnBL25@usf.edu,Freshman,general social sciences,2.625
+5139568,Demelza,HOOVER,DemelzaHO89@usf.edu,Freshman,philosophy and religious studies,2.625
+3151743,Bryce,SHIELDS,BryceSH52@usf.edu,Junior,court reporting,2.625
+8674349,Alessia,JACKSON,AlessiaJA09@usf.edu,Sophmore,human resources and personnel management,2.5
+2768564,January,ALVARADO,JanuaryAL63@usf.edu,Senior,elementary education,2.40625
+3474849,Alban,DUNN,AlbanDU84@usf.edu,Senior,general social sciences,2.25
+7995487,Comfort,BARKER,ComfortBA16@usf.edu,Sophmore,cognitive science and biopsychology,2.75
+7211995,Averil,LAMBERT,AverilLA37@usf.edu,Freshman,microbiology,2.5
+1657475,Brook,ROLLINS,BrookRO63@usf.edu,Freshman,engineering mechanics physics and science,2.25
+2465451,Opeyemi,BUCKLEY,OpeyemiBU93@usf.edu,Sophmore,geology and earth science,2.4375
+8618453,Noreena,FISCHER,NoreenaFI44@usf.edu,Freshman,petroleum engineering,2.25
+5397162,Lindsey,CONLEY,LindseyCO28@usf.edu,Senior,business economics,2.4375
+2762691,Tom,BLANKENSHIP,TomBL07@usf.edu,Senior,area ethnic and civilization studies,2.53125
+1413179,Luthais,BOYER,LuthaisBO86@usf.edu,Junior,neuroscience,2.625
+2444366,Brannah,EWING,BrannahEW67@usf.edu,Sophmore,metallurgical engineering,2.5625
+5629842,Karla,PRATT,KarlaPR79@usf.edu,Sophmore,teacher education: multiple levels,2.4375
+6736782,Alannah,HOGAN,AlannahHO79@usf.edu,Senior,general social sciences,2.46875
+8281461,Sudipta,KELLEY,SudiptaKE58@usf.edu,Junior,film video and photographic arts,2.41667
+1783966,Salem,REESE,SalemRE99@usf.edu,Junior,film video and photographic arts,2.625
+3745671,Lyanna,BATES,LyannaBA88@usf.edu,Freshman,business economics,2.75
+9115369,Iram,HOGAN,IramHO11@usf.edu,Sophmore,social work,2.6875
+6341126,Rubana,MALONE,RubanaMA04@usf.edu,Senior,nuclear engineering,2.53125
+3136379,Joanna,WILLIAMSON,JoannaWI05@usf.edu,Sophmore,architectural engineering,2.5625
+4427561,Kerr,PHAM,KerrPH86@usf.edu,Senior,medical technologies technicians,2.5
+1212257,Beau,SHERMAN,BeauSH97@usf.edu,Freshman,petroleum engineering,2.625
+1219245,Bran,LEVINE,BranLE91@usf.edu,Sophmore,naval architecture and marine engineering,2.5625
+5524992,Shahrul,MCLAUGHLIN,ShahrulMC80@usf.edu,Junior,social science or history teacher education,2.66667
+7168818,Kathlyn,KLINE,KathlynKL17@usf.edu,Sophmore,applied mathematics,2.5
+4149921,Scott,VALENCIA,ScottVA68@usf.edu,Freshman,engineering technologies,2.5
+5567847,Shareen,TAYLOR,ShareenTA44@usf.edu,Junior,astronomy and astrophysics,2.41667
+3294856,Jody,LARSON,JodyLA83@usf.edu,Junior,social science or history teacher education,2.54167
+2179824,Neville,DUARTE,NevilleDU23@usf.edu,Freshman,mechanical engineering,2.375
+4874186,Henna,FLEMING,HennaFL47@usf.edu,Junior,communication disorders sciences and services,2.625
+6729198,Kharis,MULLINS,KharisMU20@usf.edu,Junior,pre-law and legal studies,2.375
+8895391,Zaheed,DUFFY,ZaheedDU39@usf.edu,Junior,agriculture production and management,2.5
+3264431,Krystal,COPELAND,KrystalCO20@usf.edu,Junior,electrical engineering technology,2.41667
+4134186,Wasseem,ZIMMERMAN,WasseemZI10@usf.edu,Freshman,visual and performing arts,2.5
+5875356,Christina,ARIAS,ChristinaAR39@usf.edu,Senior,biomedical engineering,2.40625
+5444182,Najia,GILBERT,NajiaGI21@usf.edu,Senior,human resources and personnel management,2.65625
+9428914,Margret,ARCHER,MargretAR14@usf.edu,Junior,computer and information systems,2.70833
+9316939,Richard,PARKS,RichardPA10@usf.edu,Sophmore,naval architecture and marine engineering,2.1875
+5585769,Akass,NORMAN,AkassNO30@usf.edu,Senior,journalism,2.5
+4966259,Alina,RIGGS,AlinaRI61@usf.edu,Freshman,other foreign languages,2.25
+5559629,Nicola-Jane,BROWN,Nicola-JaneBR13@usf.edu,Sophmore,english language and literature,2.5625
+7573766,Roshan,RAMSEY,RoshanRA16@usf.edu,Senior,international relations,2.625
+5339177,Georgiana,BRAY,GeorgianaBR40@usf.edu,Junior,architecture,2.29167
+4548711,Johnie,COOK,JohnieCO76@usf.edu,Junior,composition and rhetoric,2.58333
+4278894,Tanweer,POWELL,TanweerPO31@usf.edu,Junior,pharmacology,2.5
+1944189,Sergio,ROMERO,SergioRO42@usf.edu,Senior,nuclear,2.53125
+2521393,Sohaib,HICKMAN,SohaibHI16@usf.edu,Junior,communications,2.45833
+6758945,Carolynn,SANDERS,CarolynnSA02@usf.edu,Junior,library science,2.5
+5654783,Lyly,MAHONEY,LylyMA45@usf.edu,Senior,environmental science,2.65625
+1294929,Lucia,INGRAM,LuciaIN21@usf.edu,Freshman,commercial art and graphic design,2.5
+9953263,Tamara-Anne,FRANCO,Tamara-AnneFR34@usf.edu,Sophmore,geology and earth science,2.4375
+8152941,Mikki,RUSSO,MikkiRU69@usf.edu,Sophmore,drama and theater arts,2.5625
+1874357,Anndrea,MIRANDA,AnndreaMI94@usf.edu,Sophmore,transportation sciences and technologies,2.5
+1434117,Shian,FLYNN,ShianFL66@usf.edu,Freshman,criminal justice and fire protection,2.75
+7892766,Gayna,FOWLER,GaynaFO55@usf.edu,Senior,engineering technologies,2.34375
+7256718,Katie,BENSON,KatieBE00@usf.edu,Freshman,advertising and public relations,2.25
+8754834,Monica,LLOYD,MonicaLL73@usf.edu,Junior,miscellaneous agriculture,2.54167
+4279754,Lorrainne,HARRELL,LorrainneHA72@usf.edu,Freshman,economics,2.75
+7852582,Kern,FORBES,KernFO43@usf.edu,Sophmore,computer science,2.375
+8641973,Tracey-Ann,HULL,Tracey-AnnHU08@usf.edu,Junior,petroleum engineering,2.25
+7232546,Abrahim,PACHECO,AbrahimPA34@usf.edu,Junior,human services and community organization,2.33333
+3247254,Magdalene,BOWEN,MagdaleneBO82@usf.edu,Senior,business management and administration,2.5625
+4845231,Mharie,WU,MharieWU30@usf.edu,Freshman,communication technologies,2.375
+8463499,Chandra,MCGRATH,ChandraMC13@usf.edu,Sophmore,miscellaneous health medical professions,2.5
+1635238,Angel,HANCOCK,AngelHA10@usf.edu,Freshman,health and medical administrative services,2.5
+1726235,Qez,FOLEY,QezFO60@usf.edu,Freshman,general business,2.5
+5788826,John,WEEKS,JohnWE47@usf.edu,Sophmore,economics,2.4375
+2598467,Symantha,VANCE,SymanthaVA58@usf.edu,Senior,materials engineering and materials science,2.46875
+3647611,Amrey,DOYLE,AmreyDO17@usf.edu,Junior,miscellaneous biology,2.41667
+8417553,Tricia,STEELE,TriciaST46@usf.edu,Junior,physics,2.625
+1548875,Danelle,MCDONALD,DanelleMC40@usf.edu,Senior,visual and performing arts,2.40625
+9347129,Orlando,GENTRY,OrlandoGE75@usf.edu,Junior,humanities,2.54167
+4465125,Sharron,DRAKE,SharronDR08@usf.edu,Senior,biological engineering,2.5
+5512533,Haley,MARTIN,HaleyMA54@usf.edu,Freshman,ecology,2.625
+7348326,Gary,CONLEY,GaryCO83@usf.edu,Junior,court reporting,2.58333
+2996134,Aisha,KIRK,AishaKI22@usf.edu,Junior,social work,2.375
+6964186,Leeane,GILL,LeeaneGI11@usf.edu,Junior,health and medical administrative services,2.54167
+3695794,Raelene,CHERRY,RaeleneCH91@usf.edu,Sophmore,miscellaneous biology,2.375
+8987977,Leiane,BLACK,LeianeBL62@usf.edu,Freshman,electrical,2.5
+6349162,Cavell,PETERS,CavellPE68@usf.edu,Freshman,interdisciplinary social sciences,2.75
+1379441,Anwar,BAIRD,AnwarBA28@usf.edu,Junior,military technologies,2.16667
+8211253,Sebastien,BERNARD,SebastienBE45@usf.edu,Senior,advertising and public relations,2
+1336425,Aline,SWEENEY,AlineSW79@usf.edu,Sophmore,mining and mineral engineering,2
+4337384,Shalimar,WEEKS,ShalimarWE58@usf.edu,Senior,social work,2
+5462333,Denese,BEAN,DeneseBE12@usf.edu,Sophmore,management information systems and statistics,2
+2356661,Hilena,CONRAD,HilenaCO58@usf.edu,Freshman,physiology,2
+6472569,Melvin,MCKNIGHT,MelvinMC87@usf.edu,Freshman,teacher education: multiple levels,2
+6317358,Temituokpe,KENT,TemituokpeKE57@usf.edu,Freshman,general agriculture,2
+9154539,Riccardo,LOVE,RiccardoLO68@usf.edu,Senior,anthropology and archeology,2
+3334579,Nadean,RUBIO,NadeanRU19@usf.edu,Freshman,aerospace engineering,2
+7331254,Aneesa,WEEKS,AneesaWE01@usf.edu,Senior,architectural engineering,2
+4626933,Sharleene,HOWARD,SharleeneHO29@usf.edu,Sophmore,family and consumer sciences,2
+3518758,Kerri,HOLDEN,KerriHO85@usf.edu,Freshman,geosciences,2
+1394778,Anne,CARLSON,AnneCA39@usf.edu,Sophmore,political science and government,2
+1344782,Louisa,CALHOUN,LouisaCA51@usf.edu,Senior,nuclear engineering,2
+2425556,Karyn,DIAZ,KarynDI84@usf.edu,Junior,miscellaneous fine arts,2
+5364997,Tamsin,CALDERON,TamsinCA56@usf.edu,Senior,agriculture production and management,2
+3535741,Mellony,MERCER,MellonyME18@usf.edu,Senior,geosciences,2
+5341121,Keira,VILLARREAL,KeiraVI52@usf.edu,Freshman,actuarial science,2
+2226268,Ariane,TAPIA,ArianeTA31@usf.edu,Sophmore,special needs education,2
+3618228,Muhmmad,MCCOY,MuhmmadMC21@usf.edu,Freshman,hospitality management,2
+5541844,Barron,RIVAS,BarronRI53@usf.edu,Senior,advertising and public relations,2
+1626968,Marie-Francoise,QUINN,Marie-FrancoiseQU18@usf.edu,Junior,food science,2
+1815928,Tamsin,ROACH,TamsinRO97@usf.edu,Senior,oceanography,2
+3898546,Zishan,CHERRY,ZishanCH55@usf.edu,Freshman,geological and geophysical engineering,2
+1879185,Mathew,WHITNEY,MathewWH32@usf.edu,Junior,mechanical engineering,2
+8422449,Ka,GRIMES,KaGR71@usf.edu,Sophmore,hospitality management,2
+4879342,Alhakam,HARTMAN,AlhakamHA40@usf.edu,Senior,clinical psychology,2
+7678874,Natalie,JONES,NatalieJO35@usf.edu,Freshman,industrial and manufacturing engineering,2
+6837955,Jeanne,KEMP,JeanneKE31@usf.edu,Junior,aerospace engineering,2
+2188659,Carol,HUFFMAN,CarolHU34@usf.edu,Junior,engineering mechanics physics and science,2
+9136252,Irvin,GATES,IrvinGA25@usf.edu,Sophmore,human resources and personnel management,2
+8297645,Hew,HUERTA,HewHU95@usf.edu,Senior,food science,2
+6696382,Zara,STARK,ZaraST27@usf.edu,Freshman,geology and earth science,2
+1722717,Hrushikesh,HARDING,HrushikeshHA21@usf.edu,Senior,atmospheric sciences and meteorology,2
+2335432,Sukvant,REILLY,SukvantRE12@usf.edu,Junior,civil engineering,2
+3561854,Emma,JONES,EmmaJO41@usf.edu,Freshman,mathematics,2
+5227959,Shmaila,MORTON,ShmailaMO36@usf.edu,Freshman,physics,2
+6166188,Kellee,SPARKS,KelleeSP48@usf.edu,Freshman,library science,2
+4568177,Barry-Jon,TANNER,Barry-JonTA83@usf.edu,Senior,industrial and organizational psychology,2
+7928586,Kristie,TATE,KristieTA88@usf.edu,Junior,family and consumer sciences,2
+7528615,Lea,GARRISON,LeaGA92@usf.edu,Junior,other foreign languages,2
+4521586,Rosaria,FORD,RosariaFO37@usf.edu,Junior,mathematics and computer science,2
+2457178,Larah,CLARKE,LarahCL18@usf.edu,Freshman,business economics,2
+6878181,Eve,COBB,EveCO95@usf.edu,Junior,anthropology and archeology,2
+5291445,Glynn,ORR,GlynnOR23@usf.edu,Sophmore,area ethnic and civilization studies,2
+7747651,Lucia,CHARLES,LuciaCH95@usf.edu,Junior,mechanical engineering,2
+1336679,Charisse,TANNER,CharisseTA41@usf.edu,Senior,pharmacology,2
+1861629,Teena,WEBER,TeenaWE87@usf.edu,Freshman,animal sciences,2
+3698156,Kashif,AYERS,KashifAY68@usf.edu,Sophmore,educational psychology,2
+1329528,Rola,BANKS,RolaBA62@usf.edu,Junior,computer networking and telecommunications,2
+8535274,Brigid,GOLDEN,BrigidGO69@usf.edu,Freshman,management information systems and statistics,2
+3842129,Genevieve,SHIELDS,GenevieveSH30@usf.edu,Sophmore,history,2
+7978875,Sossity,LINDSEY,SossityLI59@usf.edu,Freshman,clinical psychology,2
+7776889,Siona,VARGAS,SionaVA90@usf.edu,Sophmore,art history and criticism,2
+8699882,Stanley,CLINE,StanleyCL34@usf.edu,Junior,miscellaneous business & medical administration,2
+2467423,Antoinette,BOOKER,AntoinetteBO17@usf.edu,Freshman,pre-law and legal studies,2
+3117988,Khashia,REESE,KhashiaRE24@usf.edu,Sophmore,music,2
+9625686,Jerome,COLE,JeromeCO05@usf.edu,Sophmore,botany,2
+9954175,Uchechukwu,MERRITT,UchechukwuME10@usf.edu,Junior,miscellaneous psychology,2
+5466167,Gurhemat,VALENZUELA,GurhematVA18@usf.edu,Sophmore,medical technologies technicians,2
+5518132,Kerr,GREGORY,KerrGR37@usf.edu,Freshman,civil engineering,2
+4587731,Caralyn,ESTRADA,CaralynES01@usf.edu,Sophmore,film video and photographic arts,2
+5757897,Henrietta,ABBOTT,HenriettaAB16@usf.edu,Freshman,soil science,2
+6926188,Joel,CLAY,JoelCL27@usf.edu,Junior,materials science,2
+4663653,Nadeem,KERR,NadeemKE89@usf.edu,Sophmore,theology and religious vocations,2
+8352275,Amye,BRADFORD,AmyeBR70@usf.edu,Junior,microbiology,2
+1581639,Huseyin,RAMSEY,HuseyinRA92@usf.edu,Senior,forestry,2
+6521882,Desmond,FUENTES,DesmondFU98@usf.edu,Sophmore,zoology,2
+7774674,Thorfinn,KRAMER,ThorfinnKR79@usf.edu,Freshman,philosophy and religious studies,2
+6868536,Brooks,GALVAN,BrooksGA31@usf.edu,Junior,mechanical engineering,2
+1911925,Mariann,SWEENEY,MariannSW12@usf.edu,Sophmore,physics,2
+4984974,Aneesa,COLE,AneesaCO37@usf.edu,Sophmore,social science or history teacher education,2
+6885791,Peter-John,MALONE,Peter-JohnMA85@usf.edu,Freshman,advertising and public relations,2
