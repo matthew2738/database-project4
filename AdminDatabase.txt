@@ -1,0 +1,46 @@
+admin_id,first,last,email,phone,occupation
+27931,Ancris,RUBIO,AncrisRU53@usf.edu,123-045-5543,Dean
+62175,Jeanie,BEST,JeanieBE04@usf.edu,123-860-6286,Management
+51977,Kelvin,BALDWIN,KelvinBA40@usf.edu,123-450-4845,Management
+98466,Stevie,BALL,StevieBA82@usf.edu,123-137-8343,Management
+88189,Florence,CARRILLO,FlorenceCA56@usf.edu,123-069-6495,Management
+89145,Janis,CAMACHO,JanisCA71@usf.edu,123-986-3087,Management
+68952,Kyrstine,HOLDER,KyrstineHO48@usf.edu,123-770-6310,Management
+19762,Clement,LARA,ClementLA14@usf.edu,123-770-0149,Management
+82948,Ehson,RICHARD,EhsonRI21@usf.edu,123-168-6761,Management
+42291,Kharis,RIOS,KharisRI78@usf.edu,123-966-7253,Management
+11596,Gerda,PENNINGTON,GerdaPE10@usf.edu,123-133-6235,Management
+81777,Calan,GILES,CalanGI07@usf.edu,123-361-3778,Management
+85843,Billy,FINLEY,BillyFI30@usf.edu,123-590-5473,Management
+71915,Devinder,CHEN,DevinderCH74@usf.edu,123-375-9613,Management
+29177,Hussan,NIELSEN,HussanNI54@usf.edu,123-930-8146,Management
+36373,Starsky,CUMMINGS,StarskyCU42@usf.edu,123-511-1357,Advisor
+75471,Eildh,STRICKLAND,EildhST73@usf.edu,123-072-8145,Advisor
+11962,Jaswynder,LEONARD,JaswynderLE92@usf.edu,123-534-5099,Advisor
+63725,Aryana,GALLEGOS,AryanaGA19@usf.edu,123-819-7732,Advisor
+53938,Otis-Chen,MCCANN,Otis-ChenMC95@usf.edu,123-231-4044,Advisor
+28726,Ann-Marie,MALONE,Ann-MarieMA01@usf.edu,123-695-3962,Advisor
+14771,Kalene,BENSON,KaleneBE28@usf.edu,123-463-0529,Advisor
+83699,Erynn,WEBB,ErynnWE77@usf.edu,123-481-8386,Advisor
+75918,Frederick,BARNETT,FrederickBA44@usf.edu,123-081-5937,Advisor
+92569,Kristen,HATFIELD,KristenHA29@usf.edu,123-922-0129,Advisor
+66629,Russ,ASHLEY,RussAS48@usf.edu,123-958-3065,Counselor
+46668,Michele,SHARP,MicheleSH50@usf.edu,123-355-5578,Counselor
+39667,Tarra,MERRITT,TarraME49@usf.edu,123-763-5443,Counselor
+83155,Walter,LONG,WalterLO41@usf.edu,123-064-5946,Counselor
+67686,Zouhaib,SUMMERS,ZouhaibSU71@usf.edu,123-899-1106,Counselor
+64461,Anil,LEE,AnilLE52@usf.edu,123-223-4742,Career Services
+91982,Ahsan-Ul-Haq,GAMBLE,Ahsan-Ul-HaqGA79@usf.edu,123-210-4343,Career Services
+67799,Layna,MCINTOSH,LaynaMC11@usf.edu,123-536-2743,Career Services
+34677,Leone,SHAW,LeoneSH08@usf.edu,123-525-9103,Career Services
+45759,Li-Anne,ROACH,Li-AnneRO11@usf.edu,123-633-0555,Career Services
+16626,Annalisa,FINLEY,AnnalisaFI99@usf.edu,123-083-3101,College Marketing
+24951,Karey,GOULD,KareyGO34@usf.edu,123-477-3659,College Marketing
+15764,Bharat,GIBSON,BharatGI45@usf.edu,123-705-6688,College Marketing
+79988,Faye,CAMPOS,FayeCA93@usf.edu,123-198-8605,IT
+71736,Bronwen,GOODWIN,BronwenGO10@usf.edu,123-180-4577,IT
+17336,Khuram,HESTER,KhuramHE07@usf.edu,123-633-3181,IT
+28242,Hughgo,HINES,HughgoHI51@usf.edu,123-409-3690,IT
+75191,Ellena,HICKMAN,EllenaHI65@usf.edu,123-532-3388,IT
+31678,Conor,MATHEWS,ConorMA86@usf.edu,123-935-7106,IT
+18961,Ciaran,BOND,CiaranBO78@usf.edu,123-265-0251,IT

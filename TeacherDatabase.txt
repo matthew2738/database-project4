@@ -1,0 +1,61 @@
+teacher_id,first,last,email,department
+257533,Carys,HORN,CarysHO73@usf.edu,humanities & liberal arts
+187298,Nadera,CALDWELL,NaderaCA72@usf.edu,industrial arts & consumer services
+876877,Aneela,BARRETT,AneelaBA41@usf.edu,law & public policy
+562489,Marc,PONCE,MarcPO80@usf.edu,business
+178765,Krysia,REED,KrysiaRE96@usf.edu,health
+165726,Kirsti-Ann,FORBES,Kirsti-AnnFO46@usf.edu,law & public policy
+447398,Jehan,BENTLEY,JehanBE85@usf.edu,biology & life science
+126421,Mazia,BURNS,MaziaBU47@usf.edu,biology & life science
+415814,Iemkje,WOOD,IemkjeWO89@usf.edu,industrial arts & consumer services
+129888,Innes,ORTEGA,InnesOR60@usf.edu,law & public policy
+791843,Cormac,MEYER,CormacME88@usf.edu,business
+345323,Keng,DURAN,KengDU44@usf.edu,education
+171178,Elizabeth,REYES,ElizabethRE22@usf.edu,education
+688938,Yasneen,ANTHONY,YasneenAN29@usf.edu,law & public policy
+634195,Gwendoline,SOLOMON,GwendolineSO21@usf.edu,arts
+344691,Rajeev,MCCARTHY,RajeevMC95@usf.edu,computers & mathematics
+641631,Rachael,HURLEY,RachaelHU67@usf.edu,communications & journalism
+648451,Tony,BOYLE,TonyBO03@usf.edu,education
+184795,Karan,BARTLETT,KaranBA62@usf.edu,engineering
+173915,Pascoe,MITCHELL,PascoeMI70@usf.edu,physical sciences
+958567,Tamur,COSTA,TamurCO59@usf.edu,law & public policy
+699727,Liane,HODGE,LianeHO81@usf.edu,health
+133651,Orlanda,DAVIES,OrlandaDA99@usf.edu,physical sciences
+484344,Leyton,MCCLAIN,LeytonMC15@usf.edu,interdisciplinary
+786214,Shaun,LE,ShaunLE99@usf.edu,social science
+328328,Sionha,JARVIS,SionhaJA10@usf.edu,biology & life science
+258133,John-Robert,GORDON,John-RobertGO87@usf.edu,social science
+449969,Abby,COFFEY,AbbyCO21@usf.edu,biology & life science
+326466,Tamsin,TATE,TamsinTA47@usf.edu,social science
+478916,Baby,KLEIN,BabyKL34@usf.edu,education
+292631,Ramsey,WEISS,RamseyWE45@usf.edu,industrial arts & consumer services
+454321,Karrie,HOLDEN,KarrieHO63@usf.edu,biology & life science
+976337,Stacey,LOGAN,StaceyLO71@usf.edu,engineering
+197923,Dugald,MCCONNELL,DugaldMC67@usf.edu,engineering
+786731,Siubhan,RAY,SiubhanRA34@usf.edu,social science
+838464,Luke,CROSS,LukeCR19@usf.edu,humanities & liberal arts
+223682,Jamieson,OLIVER,JamiesonOL43@usf.edu,humanities & liberal arts
+898824,Giulio,FRIEDMAN,GiulioFR93@usf.edu,computers & mathematics
+997292,Loretta,PENA,LorettaPE72@usf.edu,humanities & liberal arts
+323912,Leanne,HANEY,LeanneHA52@usf.edu,arts
+244666,Daryll,QUINN,DaryllQU47@usf.edu,arts
+298774,Chris,MUNOZ,ChrisMU30@usf.edu,humanities & liberal arts
+513249,Lynne,GARZA,LynneGA91@usf.edu,engineering
+913123,Robina,CHRISTIAN,RobinaCH34@usf.edu,education
+748959,Riki,CONTRERAS,RikiCO59@usf.edu,agriculture & natural resources
+642152,Heather,CARRILLO,HeatherCA88@usf.edu,physical sciences
+616715,Jolisa,OBRIEN,JolisaOB20@usf.edu,business
+112555,Cecilia,GRAY,CeciliaGR45@usf.edu,agriculture & natural resources
+763263,Hui,WASHINGTON,HuiWA73@usf.edu,business
+449264,Johannes,SANCHEZ,JohannesSA28@usf.edu,business
+487544,Beatrice,MELENDEZ,BeatriceME19@usf.edu,computers & mathematics
+425816,Adair,MCNEIL,AdairMC54@usf.edu,law & public policy
+242556,Joyce,ALI,JoyceAL47@usf.edu,engineering
+235917,Saddaf,BRADFORD,SaddafBR23@usf.edu,physical sciences
+621115,Junifa,ALLISON,JunifaAL13@usf.edu,social science
+818383,Ferguson,WEBB,FergusonWE27@usf.edu,humanities & liberal arts
+672273,Neale,VALENCIA,NealeVA94@usf.edu,arts
+793639,Ciaran,CISNEROS,CiaranCI32@usf.edu,industrial arts & consumer services
+336739,Zabair,BARRERA,ZabairBA24@usf.edu,psychology & social work
+818789,Geraint,GRIFFIN,GeraintGR22@usf.edu,business
