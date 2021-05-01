@@ -44,6 +44,9 @@ class Student(db.Model):
 
     #classes_attending = relationship("Class", secondary=Enrolled, back_populates="students_attending")
 
+    def getFullName(self):
+        return f"{self.fname} {self.lname}"
+
     def __repr__ (self):
         return f"{self.fname} - {self.lname} - {self.grade_level} - {self.major}"
 
@@ -57,6 +60,8 @@ class Teacher(db.Model):
     email = db.Column(db.String(20), nullable=False, unique=True)
     college = db.Column(db.String(20))
     #classes = db.relationship('Class', backref='teachers', lazy=True)
+    def getFullName(self):
+        return f"{self.fname} {self.lname}"
 
     def __repr__ (self):
         return f"{self.fname} - {self.lname} - {self.email}"
@@ -103,7 +108,7 @@ class User(db.Model):
     def __repr__ (self):
         return f"{self.username} - {self.status}"
 
-
+'''
 def populate_students():
     df = pd.read_csv('file:StudentDatabase.txt', header=0, sep=',')
     #print(df.head())
@@ -203,18 +208,18 @@ def main():
    # populate_classes()
    # populate_enrolled()
    # populate_admin()
-   populate_users()
+   # populate_users()
 
 if __name__ == "__main__":
     main()
-
+'''
 
 
 @app.route("/")
 def home():
     return "Hello, This is the API for the Database Class"
 
-@app.route('/students')
+@app.route('/api/students')
 def get_students():
     students = Student.query.all()
     
@@ -231,7 +236,75 @@ def get_students():
         output.append(stud_data)
     return {"students" : output}
 
-@app.route('/classes')
+# Student -> get Classes for sem/year that you are enrolled in
+@app.route('/api/students/classes', methods=['GET'])
+def get_StudSemYrClasses():
+    sid = request.args.get('student_id')
+    sem = request.args.get('semester')
+    yr = request.args.get('year')
+
+    stud_classes = Enrolled.query.filter_by(student_id=sid, semester=sem, year=yr).all()
+    if stud_classes is None:
+        return {"error": "No Current Information"}
+    output = []
+    for sc in stud_classes:
+        cid = sc.class_id
+        class_info = Class.query.filter_by(class_id=cid).first()
+        data = {
+            'Class Name' : class_info.class_name,
+            'Grade' : sc.grade,
+            'Semester' : sc.semester,
+            'Year' : sc.year
+        }
+        output.append(data)
+    return {"Student Classes": output}
+
+# Student -> Queries all classes he has taken w/ GPA
+@app.route('/api/students/allClasses', methods=['GET'])
+def get_StudAllClasses():
+    sid = request.args.get('student_id')
+
+    enrolled_query = Enrolled.query.filter_by(student_id=sid).all()
+    stud_query = Student.query.filter_by(student_id=sid).first()
+    
+    if stud_query is None:
+        return {"error": "Invalid Student ID"}
+    
+    output = []
+    
+    output.append({ 'GPA' : stud_query.gpa })
+    for e_data in enrolled_query:
+        cid = e_data.class_id
+        class_data = Class.query.filter_by(class_id=cid).first()
+        data = {
+            'Class Name' : class_data.class_name,
+            'Grade' : e_data.grade,
+            'Semester' : e_data.semester,
+            'Year' : e_data.year
+        }
+        output.append(data)
+    return {"All Classes": output}
+
+# Student -> Query for a teacher by name and return their info
+@app.route('/api/students/find/teacher')
+def get_TeacherByName():
+    fname = request.args.get("fname")
+    lname = request.args.get("lname")
+
+    teacher_query = Teacher.query.filter_by(fname=fname, lname=lname).all()
+    if teacher_query is None:
+        return {"error" : "Teacher Not Found"}
+    output = []
+    for t_data in teacher_query:
+        data = {
+            'Teacher Name' : t_data.getFullName(),
+            'Teacher Email' : t_data.email,
+            'Teacher College' : t_data.college
+        }
+        output.append(data)
+    return {"Teacher" : output}
+
+@app.route('/api/classes')
 def get_classes():
     clss = Class.query.all()
     
@@ -245,7 +318,7 @@ def get_classes():
         output.append(class_data)
     return {"classes" : output}
 
-@app.route('/teachers')
+@app.route('/api/teachers')
 def get_teachers():
     teachers = Teacher.query.all()
     
@@ -261,7 +334,49 @@ def get_teachers():
         output.append(teacher_data)
     return {"teachers" : output}
 
-@app.route('/enrolled')
+# Teacher -> Searches a class he is teaching and gets student info
+@app.route('/api/teachers/class/info')
+def get_StudentsFromClass():
+    tid = request.args.get('teacher_id')
+    cid = request.args.get('class_id')
+
+    enrolled_query = Enrolled.query.filter_by(class_id=cid).all()
+
+    if enrolled_query is None:
+        return {"error": "Invalid Class ID"}
+    
+    output = []
+    for e_data in enrolled_query:
+        sid = e_data.student_id
+        stud_data = Student.query.filter_by(student_id=sid).first()
+        
+        data = {
+            'Student Name' : stud_data.getFullName(),
+            'Student ID' : stud_data.student_id,
+            'Grade' : e_data.grade,
+        }
+        output.append(data)
+    return {"Students": output}
+
+# Teacher -> Search for a student and return their info
+@app.route('/api/teachers/getStudent', methods=['GET'])
+def get_StudentInfo():
+    sid = request.args.get('student_id')
+    stud_data = Student.query.filter_by(student_id=sid).first()
+
+    if stud_data is None:
+        return {"error" : "Student Not in DB"}
+    output = []
+    data = {
+        'Student Name' : stud_data.getFullName(),
+        'Student Email' : stud_data.email,
+        'Student ID' : stud_data.student_id,
+        'Student Major' : stud_data.major
+    }
+    output.append(data)
+    return {"Student" : output}
+
+@app.route('/api/enrolled')
 def get_enrolled():
     enrolled = Enrolled.query.all()
     
@@ -275,7 +390,8 @@ def get_enrolled():
         output.append(e_data)
     return {"enrolled" : output}
 
-@app.route('/admins')
+
+@app.route('/api/admins')
 def get_admins():
     admins = Admin.query.all()
     
@@ -292,14 +408,89 @@ def get_admins():
         output.append(admin_data)
     return {"admins" : output}
 
+# Admin -> Search for student in a class and remove them
+@app.route('/api/admins/remove/<sid>/<cid>', methods=['DELETE'])
+def delete_StudentFromClass(sid, cid):
+
+    enrolled_info = Enrolled.query.filter_by(student_id=sid, class_id=cid).first()
+
+    if enrolled_info is None:
+        return {"error" : "Student Not Found"}
+    db.session.delete(enrolled_info)
+    db.session.commit()
+    return { "message" :  "Student Removed" }
+
+# Admin -> Add an existing student to a class
+@app.route('/api/admins/add/student/<sid>/<cid>', methods=['POST'])
+def add_StudentToClass(sid, cid):
+    stud_data = Student.query.get(sid)
+    if stud_data is None:
+        return {"error" : "Student Not Found"}
+    class_data = Class.query.get(cid)
+    if class_data is None:
+        return {"error" : "Class Not Found"}
+    new_stud = Enrolled(
+        student_id=stud_data.student_id,
+        class_id=class_data.class_id,
+        semester="Fall",
+        year=2021,
+        grade="A"
+    )
+    db.session.add(new_stud)
+    db.session.commit()
+    return { "message" : "Student Successfully Added" }
+
+# Admin -> Change an teachers for a class with an existing teacher
+@app.route('/api/admins/add/teacher/<tid>/<cid>')
+def add_TeacherToClass(tid, cid):
+    class_data = Class.query.get(cid)
+    if class_data is None:
+        return {"error" : "Class Not Found"}
+    teacher_data = Teacher.query.get(tid)
+    if teacher_data is None:
+        return {"error" : "Teacher Not Found"}
+    
+    db.session.delete(class_data)
+    db.session.commit()
+
+    new_class = Class(
+        class_id=class_data.class_id,
+        teacher_id = teacher_data.teacher_id,
+        class_name = class_data.class_name,
+        class_time = class_data.class_time
+    )
+    db.session.add(new_class)
+    db.session.commit()
+    return {"message" : "Teacher Successfully Added"}
+
+# Admin -> Search for a class and returns info with teacher info
+@app.route('/api/admins/search/class/<cid>', methods=['GET'])
+def get_ClassTeacherInfo(cid):
+    
+    class_data = Class.query.get(cid)
+    if class_data is None:
+        return {"error" : "Class Not Found"}
+    
+    teacher_data = Teacher.query.get(class_data.teacher_id)
+    if teacher_data is None:
+        return {"error" : "Teacher Not Found"}
+
+    output = []
+    data = {
+        'Class Name' : class_data.class_name,
+        'Class ID' : class_data.class_id,
+        'Teacher Name' : teacher_data.getFullName(),
+        'Teacher Email': teacher_data.email,
+        'Teacher ID' : teacher_data.teacher_id
+    }
+    output.append(data)
+    return {"Class Info" : output}
+
 @app.route('/api/getUser/login')
 def get_user():
     username = request.args.get('username')
     pw = request.args.get('password')
-    print(username)
-    print(pw)
-    user = User.query.filter_by(username='LeeGL40@usf.edu').all()
-    print(user)
+    user = User.query.filter_by(username=username).all()
     
     #if user.password != pw:
     #    return {"error" : "Incorrect Password"}
