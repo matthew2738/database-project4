@@ -20,10 +20,11 @@ class Enrolled(db.Model):
 
     __tablename__ = 'enrolled'
 
-    student_id = db.Column(db.Integer, primary_key=True)
-    class_id = db.Column(db.Integer, primary_key=True)
-    semester = db.Column(db.String(10), primary_key=True, nullable=False)
-    year = db.Column(db.Integer, primary_key=True)
+    enrolled_id = db.Column(db.Integer, primary_key=True)
+    student_id = db.Column(db.Integer)
+    class_id = db.Column(db.Integer)
+    semester = db.Column(db.String(10), nullable=False)
+    year = db.Column(db.Integer)
     grade =  db.Column(db.String(1))
 
     def __repr__ (self):
@@ -118,7 +119,7 @@ def populate_students():
         )
         print(s)
         db.session.add(s)
-        db.session.commit(s)
+        db.session.commit()
     
 
 def populate_teachers():
@@ -132,8 +133,9 @@ def populate_teachers():
             fname =  row['first'],
             lname =  row['last'],
         )
+        print(t)
         db.session.add(t)
-        db.session.commit(t)
+        db.session.commit()
 
 def populate_classes():
     df = pd.read_csv('file:ClassDatabase.txt', header=0, sep=',')
@@ -145,8 +147,9 @@ def populate_classes():
             class_name = row['name'],
             class_time =  row['time'],
         )
+        print(c)
         db.session.add(c)
-        db.session.commit(c)
+        db.session.commit()
 
 def populate_enrolled():
     df = pd.read_csv('file:EnrolledDatabase.txt', header=0, sep=',')
@@ -159,6 +162,7 @@ def populate_enrolled():
             year =  row['year'],
             grade =  row['grade'],
         )
+        print(e)
         db.session.add(e)
         db.session.commit()
 
@@ -171,9 +175,10 @@ def populate_admin():
             fname = row['first'],
             lname = row['last'],
             email =  row['email'],
-            phone_numer =  row['phone'],
+            phone_number =  row['phone'],
             occupation = row['occupation']
         )
+        print(a)
         db.session.add(a)
         db.session.commit()
 
@@ -187,22 +192,24 @@ def populate_users():
             password = row['password'],
             status =  row['type'],
         )
+        print(u)
         db.session.add(u)
         db.session.commit()
 
 def main():
 
-    populate_students()
+   # populate_students()
    # populate_teachers()
    # populate_classes()
    # populate_enrolled()
    # populate_admin()
+   populate_users()
 
 if __name__ == "__main__":
     main()
 
 
-'''
+
 @app.route("/")
 def home():
     return "Hello, This is the API for the Database Class"
@@ -285,6 +292,31 @@ def get_admins():
         output.append(admin_data)
     return {"admins" : output}
 
+@app.route('/api/getUser/login')
+def get_user():
+    username = request.args.get('username')
+    pw = request.args.get('password')
+    print(username)
+    print(pw)
+    user = User.query.filter_by(username='LeeGL40@usf.edu').all()
+    print(user)
+    
+    #if user.password != pw:
+    #    return {"error" : "Incorrect Password"}
+    
+    if user is None:
+        return {"error": "Incorrect Username"}
+    output = []
+    for u in user:
+        user_data = {
+            'user_id' : u.user_id,
+            'username' : u.username,
+            'password' : u.password,
+            'status' : u.status
+        }
+        output.append(user_data)
+    return {"User": output}
+'''
 @app.route('/students', methods=['POST'])
 def add_student():
     student = Student( student_id=request.json['student_id'],
