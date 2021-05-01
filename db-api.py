@@ -300,11 +300,8 @@ def get_teachers():
     return {"teachers" : output}
 
 # Student -> get Classes for sem/year that you are enrolled in
-@app.route('/api/students/classes', methods=['GET'])
-def get_StudSemYrClasses():
-    sid = request.args.get('student_id')
-    sem = request.args.get('semester')
-    yr = request.args.get('year')
+@app.route('/api/students/classes/<sid>/<sem>/<yr>', methods=['GET'])
+def get_StudSemYrClasses(sid, sem, yr):
 
     stud_classes = Enrolled.query.filter_by(student_id=sid, semester=sem, year=yr).all()
     if stud_classes is None:
@@ -323,9 +320,8 @@ def get_StudSemYrClasses():
     return {"Student Classes": output}
 
 # Student -> Queries all classes he has taken w/ GPA
-@app.route('/api/students/allClasses', methods=['GET'])
-def get_StudAllClasses():
-    sid = request.args.get('student_id')
+@app.route('/api/students/allClasses/<sid>', methods=['GET'])
+def get_StudAllClasses(sid):
 
     enrolled_query = Enrolled.query.filter_by(student_id=sid).all()
     stud_query = Student.query.filter_by(student_id=sid).first()
@@ -349,10 +345,8 @@ def get_StudAllClasses():
     return {"All Classes": output}
 
 # Student -> Query for a teacher by name and return their info
-@app.route('/api/students/find/teacher')
-def get_TeacherByName():
-    fname = request.args.get("fname")
-    lname = request.args.get("lname")
+@app.route('/api/students/find/teacher/<fname>/<lname>')
+def get_TeacherByName(fname, lname):
 
     teacher_query = Teacher.query.filter_by(fname=fname, lname=lname).all()
     if teacher_query is None:
@@ -484,7 +478,7 @@ def get_ClassTeacherInfo(cid):
     return {"Class Info" : output}
 
 # Get a login information
-@app.route('/api/getUser/login/<un>/<pw>')
+@app.route('/api/getUser/login/<un>/<pw>', methods=['GET'])
 def get_user(un, pw):
     user = User.query.filter_by(username=un, password=pw).first()
     
@@ -501,8 +495,9 @@ def get_user(un, pw):
     output.append(user_data)
     
     return {"User": output}
-'''
-@app.route('/students', methods=['POST'])
+
+# Admin -> Adds a Student to the database
+@app.route('/admins/student/add', methods=['POST'])
 def add_student():
     student = Student( student_id=request.json['student_id'],
                 fname=request.json['fname'],
@@ -514,7 +509,7 @@ def add_student():
     db.session.add(student)
     db.session.commit()
     return {'id': student.student_id}
-
+'''
 @app.route('/classes', methods=['POST'])
 def add_class():
     c = Class(class_id=request.json['class_id'],
