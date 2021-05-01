@@ -492,14 +492,13 @@ def get_user(un, pw):
         return {"error": "Invalid Login"}
     
     output = []
-    for u in user:
-        user_data = {
-            'user_id' : u.user_id,
-            'username' : u.username,
-            'password' : u.password,
-            'status' : u.status
-        }
-        output.append(user_data)
+    user_data = {
+        'user_id' : u.user_id,
+        'username' : u.username,
+        'password' : u.password,
+        'status' : u.status
+    }
+    output.append(user_data)
     
     return {"User": output}
 '''
